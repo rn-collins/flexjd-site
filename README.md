@@ -1,5 +1,5 @@
 # FlexJD SBA Resource Hub
- 
+  
 Resource site for the Northeastern University School of Law FlexJD community, maintained by the SBA Chair of FlexJD Interests. Rebuilt as a polished, accessible, mobile-first web experience.
 
 ## Structure
