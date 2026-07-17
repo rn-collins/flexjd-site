@@ -57,6 +57,19 @@
   </div>
   <div class="oppsearch__status" id="oppSearchStatus" aria-live="polite"></div>
 </div>
+<div class="oppfilters" role="group" aria-label="Filter by category">
+<button type="button" class="oppfilters__chip is-active" data-cat="all">All categories</button>
+<button type="button" class="oppfilters__chip" data-cat="o1">Writing Competitions</button>
+<button type="button" class="oppfilters__chip" data-cat="o2">Fellowships</button>
+<button type="button" class="oppfilters__chip" data-cat="o3">Co-op Opportunities</button>
+<button type="button" class="oppfilters__chip" data-cat="o4">Clerkships</button>
+<button type="button" class="oppfilters__chip" data-cat="o5">Bar Prep</button>
+<button type="button" class="oppfilters__chip" data-cat="o6">Journals & Publications</button>
+<button type="button" class="oppfilters__chip" data-cat="o7">Pro Bono & Volunteer</button>
+<button type="button" class="oppfilters__chip" data-cat="o8">NUSL Funding</button>
+<button type="button" class="oppfilters__chip" data-cat="o9">External Scholarships</button>
+<button type="button" class="oppfilters__chip" data-cat="o10">Remote & Part-Time Clerkships</button>
+</div>
 <nav aria-label="Categories" class="secnav"><div class="secnav__in"><a href="#o1">Writing Competitions</a><a href="#o2">Fellowships</a><a href="#o3">Co-op Opportunities</a><a href="#o4">Clerkships</a><a href="#o5">Bar Prep</a><a href="#o6">Journals &amp; Publicati</a><a href="#o7">Pro Bono &amp; Volunteer</a><a href="#o8">NUSL Funding</a><a href="#o9">External Scholarship</a><a href="#o10">Remote Clerkships</a></div></nav>
 <section class="csec" id="o1"><div class="wrap">
 <div class="csec__head"><div class="csec__num">01</div><h2 class="csec__title">Writing Competitions <span style="font-family:var(--sans);font-size:.9rem;font-weight:500;color:var(--tx-mute)">· 71 listings</span></h2></div>
@@ -196,6 +209,50 @@ tr.opp-hidden{display:none!important}
     if(e.key==='/' && document.activeElement!==input && !/input|textarea/i.test(document.activeElement.tagName)){
       e.preventDefault();input.focus();
     }
+  });
+})();
+</script>
+<style>
+.oppfilters{max-width:var(--wrap);margin:0 auto;padding:0 24px 22px;display:flex;flex-wrap:wrap;gap:8px}
+.oppfilters__chip{font-family:var(--sans);font-size:.86rem;font-weight:600;padding:8px 16px;border-radius:var(--r-pill);border:1.5px solid var(--line-2);background:var(--paper);color:var(--tx-soft);cursor:pointer;transition:all .15s var(--ease)}
+.oppfilters__chip:hover{border-color:var(--accent-strong);color:var(--ink)}
+.oppfilters__chip.is-active{background:var(--accent-strong);border-color:var(--accent-strong);color:#fff}
+.csec.opp-cat-hidden{display:none!important}
+</style>
+<script>
+(function(){
+  var chips=[].slice.call(document.querySelectorAll('.oppfilters__chip'));
+  if(!chips.length) return;
+  var sections=[].slice.call(document.querySelectorAll('main section.csec[id^="o"]'));
+  var activeCats=new Set(['all']);
+
+  function applyFilter(){
+    var showAll=activeCats.has('all')||activeCats.size===0;
+    sections.forEach(function(s){
+      var hide=!showAll && !activeCats.has(s.id);
+      s.classList.toggle('opp-cat-hidden',hide);
+    });
+    var input=document.getElementById('oppSearchInput');
+    if(input) input.dispatchEvent(new Event('input',{bubbles:true}));
+  }
+
+  chips.forEach(function(chip){
+    chip.addEventListener('click',function(){
+      var cat=chip.getAttribute('data-cat');
+      if(cat==='all'){
+        activeCats=new Set(['all']);
+        chips.forEach(function(c){c.classList.toggle('is-active',c.getAttribute('data-cat')==='all');});
+      }else{
+        activeCats.delete('all');
+        if(activeCats.has(cat)){activeCats.delete(cat);}else{activeCats.add(cat);}
+        if(activeCats.size===0)activeCats.add('all');
+        chips.forEach(function(c){
+          var ct=c.getAttribute('data-cat');
+          c.classList.toggle('is-active', ct==='all' ? activeCats.has('all') : activeCats.has(ct));
+        });
+      }
+      applyFilter();
+    });
   });
 })();
 </script>
