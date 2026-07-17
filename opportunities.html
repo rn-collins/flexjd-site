@@ -47,6 +47,14 @@
 </div>
 
 </div></section>
+<div class="oppsearch" role="search">
+  <div class="oppsearch__in">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" class="oppsearch__ico"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="oppSearchInput" class="oppsearch__input" placeholder="Search all 400+ listings by name, sponsor, topic, deadline, eligibility..." aria-label="Search opportunities">
+    <button type="button" id="oppSearchClear" class="oppsearch__clear" aria-label="Clear search" hidden>&times;</button>
+  </div>
+  <div class="oppsearch__status" id="oppSearchStatus" aria-live="polite"></div>
+</div>
 <nav aria-label="Categories" class="secnav"><div class="secnav__in"><a href="#o1">Writing Competitions</a><a href="#o2">Fellowships</a><a href="#o3">Co-op Opportunities</a><a href="#o4">Clerkships</a><a href="#o5">Bar Prep</a><a href="#o6">Journals &amp; Publicati</a><a href="#o7">Pro Bono &amp; Volunteer</a><a href="#o8">NUSL Funding</a><a href="#o9">External Scholarship</a><a href="#o10">Remote Clerkships</a></div></nav>
 <section class="csec" id="o1"><div class="wrap">
 <div class="csec__head"><div class="csec__num">01</div><h2 class="csec__title">Writing Competitions <span style="font-family:var(--sans);font-size:.9rem;font-weight:500;color:var(--tx-mute)">· 71 listings</span></h2></div>
@@ -125,6 +133,66 @@
     document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
   }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
   
+})();
+</script>
+<style>
+.oppsearch{max-width:var(--wrap);margin:0 auto 0;padding:0 24px 22px}
+.oppsearch__in{position:relative;display:flex;align-items:center;background:var(--paper);border:1.5px solid var(--line-2);border-radius:var(--r-pill);box-shadow:var(--sh-2);transition:border-color .18s var(--ease),box-shadow .18s var(--ease)}
+.oppsearch__in:focus-within{border-color:var(--accent-strong);box-shadow:var(--sh-3)}
+.oppsearch__ico{width:20px;height:20px;color:var(--tx-mute);flex-shrink:0;margin-left:18px}
+.oppsearch__input{flex:1;border:none;background:transparent;padding:15px 12px;font-family:var(--sans);font-size:1rem;color:var(--tx);min-width:0}
+.oppsearch__input:focus{outline:none}
+.oppsearch__input::placeholder{color:var(--tx-mute)}
+.oppsearch__clear{background:var(--canvas-2);border:none;color:var(--tx-soft);width:28px;height:28px;border-radius:50%;margin-right:10px;cursor:pointer;font-size:1.1rem;line-height:1;flex-shrink:0;transition:background .15s}
+.oppsearch__clear:hover{background:var(--line-2);color:var(--ink)}
+.oppsearch__status{margin-top:10px;font-size:.88rem;color:var(--tx-mute);padding-left:6px;min-height:1.2em}
+.oppsearch__status strong{color:var(--ink);font-weight:700}
+tr.opp-hidden{display:none!important}
+.csec.opp-empty-cat{display:none}
+.oppsearch__nomatch{display:none;text-align:center;padding:64px 24px;color:var(--tx-mute);font-size:1.05rem}
+.oppsearch__nomatch.show{display:block}
+.oppsearch__nomatch strong{display:block;font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin-bottom:10px;font-weight:600}
+</style>
+<script>
+(function(){
+  var input=document.getElementById('oppSearchInput');
+  var clearBtn=document.getElementById('oppSearchClear');
+  var status=document.getElementById('oppSearchStatus');
+  if(!input) return;
+  var allRows=[].slice.call(document.querySelectorAll('table.data tbody tr'));
+  var totalRows=allRows.length;
+  var sections=[].slice.call(document.querySelectorAll('section.csec[id^="o"]'));
+
+  function runFilter(){
+    var q=input.value.trim().toLowerCase();
+    clearBtn.hidden=!q;
+    var visibleCount=0;
+    if(!q){
+      allRows.forEach(function(r){r.classList.remove('opp-hidden');});
+      sections.forEach(function(s){s.classList.remove('opp-empty-cat');});
+      status.textContent='';
+      return;
+    }
+    var terms=q.split(/\s+/).filter(Boolean);
+    allRows.forEach(function(r){
+      var text=r.textContent.toLowerCase();
+      var match=terms.every(function(t){return text.indexOf(t)!==-1;});
+      r.classList.toggle('opp-hidden',!match);
+      if(match)visibleCount++;
+    });
+    sections.forEach(function(s){
+      var visRows=s.querySelectorAll('tbody tr:not(.opp-hidden)');
+      s.classList.toggle('opp-empty-cat',visRows.length===0);
+    });
+    status.innerHTML='<strong>'+visibleCount+'</strong> of '+totalRows+' listings match "'+input.value.replace(/</g,'&lt;')+'"';
+  }
+  input.addEventListener('input',runFilter);
+  clearBtn.addEventListener('click',function(){input.value='';runFilter();input.focus();});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='/' && document.activeElement!==input && !/input|textarea/i.test(document.activeElement.tagName)){
+      e.preventDefault();input.focus();
+    }
+  });
 })();
 </script>
 </body></html>
