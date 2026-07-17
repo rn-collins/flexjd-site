@@ -1,0 +1,37 @@
+name: Opportunity freshness audit
+
+on:
+  pull_request:
+    paths:
+      - "opportunities.html"
+      - "scripts/check_stale_opportunities.py"
+      - ".github/workflows/opportunity-freshness.yml"
+  push:
+    branches: [main]
+    paths:
+      - "opportunities.html"
+      - "scripts/check_stale_opportunities.py"
+  schedule:
+    - cron: "43 11 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit deadlines and verification dates
+        run: python scripts/check_stale_opportunities.py | tee opportunity-freshness-report.txt
+      - name: Upload review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: opportunity-freshness-report
+          path: opportunity-freshness-report.txt
+          if-no-files-found: error
