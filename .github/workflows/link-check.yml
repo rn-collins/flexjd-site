@@ -22,7 +22,17 @@ jobs:
           python-version: '3.12'
 
       - name: Check internal repository links
+        id: internal
+        continue-on-error: true
         run: python scripts/check_internal_links.py
+
+      - name: Upload internal-link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: internal-link-report
+          path: ./internal-link-report.txt
+          if-no-files-found: error
 
       - name: Check external links and write report
         id: external
@@ -59,3 +69,9 @@ jobs:
           title: "Automated external-link audit found unreachable links"
           content-filepath: ./lychee-external-report.md
           labels: maintenance,links
+
+      - name: Enforce internal-link integrity
+        if: steps.internal.outcome == 'failure'
+        run: |
+          cat ./internal-link-report.txt
+          exit 1
