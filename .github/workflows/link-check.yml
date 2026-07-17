@@ -1,0 +1,77 @@
+name: Link check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "31 10 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check internal repository links
+        id: internal
+        continue-on-error: true
+        run: python scripts/check_internal_links.py
+
+      - name: Upload internal-link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: internal-link-report
+          path: ./internal-link-report.txt
+          if-no-files-found: error
+
+      - name: Check external links and write report
+        id: external
+        continue-on-error: true
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --max-retries 3
+            --retry-wait-time 3
+            --timeout 30
+            --accept 200,204,206,403,429
+            --exclude-mail
+            --exclude '^https://github.com/rn-collins/flexjd-site/blob/'
+            --format markdown
+            --output ./lychee-external-report.md
+            './**/*.html'
+            './**/*.md'
+          fail: false
+
+      - name: Upload external-link report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-link-report
+          path: ./lychee-external-report.md
+          if-no-files-found: ignore
+
+      - name: Create issue for scheduled external-link findings
+        if: steps.external.outcome == 'failure' && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Automated external-link audit found unreachable links"
+          content-filepath: ./lychee-external-report.md
+          labels: maintenance,links
+
+      - name: Enforce internal-link integrity
+        if: steps.internal.outcome == 'failure'
+        run: |
+          cat ./internal-link-report.txt
+          exit 1
