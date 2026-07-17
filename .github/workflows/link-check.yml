@@ -1,0 +1,37 @@
+name: Link check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "31 10 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repository links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,204,206,429
+            --exclude-mail
+            './**/*.html'
+            './**/*.md'
+          fail: true
+      - name: Create issue for scheduled failures
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Automated link check found broken or unreachable links"
+          content-filepath: ./lychee/out.md
+          labels: maintenance,links
