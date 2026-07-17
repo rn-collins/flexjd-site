@@ -1,3 +1,4 @@
+// Shared, sitewide status and policy notice. Keep links root-relative for Vercel clean URLs.
 (() => {
   const mount = () => {
     if (document.querySelector('[data-site-governance-notice]')) return;
