@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Validate local HTML links without making network requests.
-
-Understands Vercel clean URLs by resolving `/privacy` to `privacy.html` and
-campaign-relative links to files in their own directories. External, mail,
-tel, data, and JavaScript links are intentionally ignored here and handled by
-the separate non-blocking external availability audit.
-"""
+"""Validate local HTML links without making network requests."""
 
 from __future__ import annotations
 
@@ -14,6 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 SKIP_SCHEMES = {"http", "https", "mailto", "tel", "data", "javascript"}
+REPORT = Path("internal-link-report.txt")
 
 
 class Collector(HTMLParser):
@@ -34,11 +29,7 @@ class Collector(HTMLParser):
 
 def resolve_target(source: Path, raw_path: str) -> Path:
     decoded = unquote(raw_path)
-    if decoded.startswith("/"):
-        base = Path(decoded.lstrip("/"))
-    else:
-        base = source.parent / decoded
-
+    base = Path(decoded.lstrip("/")) if decoded.startswith("/") else source.parent / decoded
     if decoded.endswith("/") or not base.name:
         return base / "index.html"
     if base.suffix:
@@ -46,9 +37,7 @@ def resolve_target(source: Path, raw_path: str) -> Path:
     if base.exists():
         return base
     html = base.with_suffix(".html")
-    if html.exists():
-        return html
-    return base
+    return html if html.exists() else base
 
 
 def parse(path: Path) -> Collector:
@@ -73,26 +62,24 @@ def main() -> int:
                 continue
             if not split.path:
                 continue
-
             target = resolve_target(source, split.path)
             if not target.exists():
                 failures.append(f"{source}: {attr}={raw!r} -> missing {target}")
                 continue
-
             if split.fragment and target.suffix.lower() == ".html":
                 target_doc = parsed.get(target) or parse(target)
                 if split.fragment not in target_doc.ids:
-                    failures.append(
-                        f"{source}: {raw!r} -> missing fragment #{split.fragment} in {target}"
-                    )
+                    failures.append(f"{source}: {raw!r} -> missing fragment #{split.fragment} in {target}")
 
     if failures:
-        print("Internal-link validation failed:")
-        for failure in failures:
-            print(f"- {failure}")
+        content = "Internal-link validation failed:\n" + "\n".join(f"- {item}" for item in failures) + "\n"
+        REPORT.write_text(content, encoding="utf-8")
+        print(content, end="")
         return 1
 
-    print(f"Validated internal links across {len(parsed)} HTML files.")
+    content = f"Validated internal links across {len(parsed)} HTML files.\n"
+    REPORT.write_text(content, encoding="utf-8")
+    print(content, end="")
     return 0
 
 
