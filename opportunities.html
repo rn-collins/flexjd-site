@@ -58,17 +58,17 @@
   <div class="oppsearch__status" id="oppSearchStatus" aria-live="polite"></div>
 </div>
 <div class="oppfilters" role="group" aria-label="Filter by category">
-<button type="button" class="oppfilters__chip is-active" data-cat="all">All categories</button>
-<button type="button" class="oppfilters__chip" data-cat="o1">Writing Competitions</button>
-<button type="button" class="oppfilters__chip" data-cat="o2">Fellowships</button>
-<button type="button" class="oppfilters__chip" data-cat="o3">Co-op Opportunities</button>
-<button type="button" class="oppfilters__chip" data-cat="o4">Clerkships</button>
-<button type="button" class="oppfilters__chip" data-cat="o5">Bar Prep</button>
-<button type="button" class="oppfilters__chip" data-cat="o6">Journals & Publications</button>
-<button type="button" class="oppfilters__chip" data-cat="o7">Pro Bono & Volunteer</button>
-<button type="button" class="oppfilters__chip" data-cat="o8">NUSL Funding</button>
-<button type="button" class="oppfilters__chip" data-cat="o9">External Scholarships</button>
-<button type="button" class="oppfilters__chip" data-cat="o10">Remote & Part-Time Clerkships</button>
+<button type="button" class="oppfilters__chip is-active" data-cat="all" aria-pressed="true">All categories</button>
+<button type="button" class="oppfilters__chip" data-cat="o1" aria-pressed="false">Writing Competitions</button>
+<button type="button" class="oppfilters__chip" data-cat="o2" aria-pressed="false">Fellowships</button>
+<button type="button" class="oppfilters__chip" data-cat="o3" aria-pressed="false">Co-op Opportunities</button>
+<button type="button" class="oppfilters__chip" data-cat="o4" aria-pressed="false">Clerkships</button>
+<button type="button" class="oppfilters__chip" data-cat="o5" aria-pressed="false">Bar Prep</button>
+<button type="button" class="oppfilters__chip" data-cat="o6" aria-pressed="false">Journals & Publications</button>
+<button type="button" class="oppfilters__chip" data-cat="o7" aria-pressed="false">Pro Bono & Volunteer</button>
+<button type="button" class="oppfilters__chip" data-cat="o8" aria-pressed="false">NUSL Funding</button>
+<button type="button" class="oppfilters__chip" data-cat="o9" aria-pressed="false">External Scholarships</button>
+<button type="button" class="oppfilters__chip" data-cat="o10" aria-pressed="false">Remote & Part-Time Clerkships</button>
 </div>
 <nav aria-label="Categories" class="secnav"><div class="secnav__in"><a href="#o1">Writing Competitions</a><a href="#o2">Fellowships</a><a href="#o3">Co-op Opportunities</a><a href="#o4">Clerkships</a><a href="#o5">Bar Prep</a><a href="#o6">Journals &amp; Publicati</a><a href="#o7">Pro Bono &amp; Volunteer</a><a href="#o8">NUSL Funding</a><a href="#o9">External Scholarship</a><a href="#o10">Remote Clerkships</a></div></nav>
 <section class="csec" id="o1"><div class="wrap">
@@ -241,14 +241,20 @@ tr.opp-hidden{display:none!important}
       var cat=chip.getAttribute('data-cat');
       if(cat==='all'){
         activeCats=new Set(['all']);
-        chips.forEach(function(c){c.classList.toggle('is-active',c.getAttribute('data-cat')==='all');});
+        chips.forEach(function(c){
+          var on=c.getAttribute('data-cat')==='all';
+          c.classList.toggle('is-active',on);
+          c.setAttribute('aria-pressed',String(on));
+        });
       }else{
         activeCats.delete('all');
         if(activeCats.has(cat)){activeCats.delete(cat);}else{activeCats.add(cat);}
         if(activeCats.size===0)activeCats.add('all');
         chips.forEach(function(c){
           var ct=c.getAttribute('data-cat');
-          c.classList.toggle('is-active', ct==='all' ? activeCats.has('all') : activeCats.has(ct));
+          var on=ct==='all' ? activeCats.has('all') : activeCats.has(ct);
+          c.classList.toggle('is-active', on);
+          c.setAttribute('aria-pressed',String(on));
         });
       }
       applyFilter();
