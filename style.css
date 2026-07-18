@@ -318,6 +318,17 @@ h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7
 .frame__h{background:linear-gradient(180deg,var(--accent-wash),color-mix(in srgb,var(--accent-wash) 55%,var(--paper)));padding:18px 22px;font-family:var(--serif);font-weight:600;font-size:1.1rem;color:var(--accent-ink);border-bottom:1px solid var(--line);line-height:1.25}
 .frame__b{padding:20px 22px;font-size:.96rem;color:var(--tx-soft);line-height:1.6}
 
+/* ═══ PROGRESSIVE DISCLOSURE (dense grids) ═══ */
+.more-toggle{margin-top:18px;border:none;background:none;padding:0}
+.more-toggle summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:9px;font-weight:600;font-size:.94rem;color:var(--accent-ink);padding:11px 20px;border:1.5px solid var(--line-2);border-radius:var(--r-pill);background:var(--paper);transition:all .15s var(--ease);width:fit-content}
+.more-toggle summary::-webkit-details-marker{display:none}
+.more-toggle summary:hover{border-color:var(--accent-strong);background:var(--accent-wash)}
+.more-toggle summary::after{content:"↓";font-size:.85em;transition:transform .2s var(--ease)}
+.more-toggle[open] summary::after{transform:rotate(180deg)}
+.more-toggle[open] summary{margin-bottom:18px}
+.dark-panel .more-toggle summary,.on-dark .more-toggle summary{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff}
+.dark-panel .more-toggle summary:hover,.on-dark .more-toggle summary:hover{background:rgba(255,255,255,.18);border-color:#fff}
+
 /* ═══ CALENDAR ═══ */
 .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
 .calw{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);padding:22px 24px;border-top:3px solid var(--accent-strong)}
