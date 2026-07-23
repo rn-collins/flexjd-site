@@ -35,7 +35,7 @@
 <li class="nav__dd open">
 <button aria-expanded="false" aria-haspopup="true" class="nav__ddbtn">Advocacy Campaigns <span class="chev">▾</span></button>
 <ul class="nav__menu"><li><a href="../campaigns/september.html"><span class="rail" style="background:#0F6E6E"></span><span>Crisis Prevention &amp; DV Awareness<span class="mo">Sep–Oct</span></span></a></li><li><a href="../campaigns/november.html"><span class="rail" style="background:#3A6EA5"></span><span>Transgender Awareness &amp; TDOR<span class="mo">Nov</span></span></a></li><li><a aria-current="page" class="active" href="../campaigns/december.html"><span class="rail" style="background:#0063A6"></span><span>Human Rights Day<span class="mo">Dec</span></span></a></li><li><a href="../campaigns/january.html"><span class="rail" style="background:#1E4B8F"></span><span>Human Trafficking Prevention<span class="mo">Jan</span></span></a></li><li><a href="../campaigns/february.html"><span class="rail" style="background:#1B7A3D"></span><span>Black History Month<span class="mo">Feb</span></span></a></li><li><a href="../campaigns/march.html"><span class="rail" style="background:#6A1B9A"></span><span>Women's History &amp; IWD<span class="mo">Mar</span></span></a></li><li><a href="../campaigns/april.html"><span class="rail" style="background:#0F7C7C"></span><span>SAAM &amp; Fair Housing<span class="mo">Apr</span></span></a></li></ul>
-</li>
+</li><li class="nav__dd"><button class="nav__ddbtn" aria-expanded="false" aria-haspopup="true">Class Year <span class="chev">▾</span></button><ul class="nav__menu"><li><a href="../classyear/2027.html"><span>Class of 2027</span></a></li><li><a href="../classyear/2028.html"><span>Class of 2028</span></a></li><li><a href="../classyear/2029.html"><span>Class of 2029</span></a></li><li><a href="../classyear/2030.html"><span>Class of 2030</span></a></li></ul></li>
 </ul>
 </div>
 </nav>
@@ -126,30 +126,5 @@
   </div>
 </footer>
 <button aria-label="Back to top" class="totop"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"></path></svg></button>
-<script>
-(function(){
-  var nav=document.querySelector('.nav');
-  var onscroll=function(){if(nav)nav.classList.toggle('scrolled',window.scrollY>12);};
-  window.addEventListener('scroll',onscroll,{passive:true});onscroll();
-  var tg=document.querySelector('.nav__toggle'),lk=document.querySelector('.nav__links');
-  if(tg&&lk)tg.addEventListener('click',function(){var o=lk.classList.toggle('open');tg.setAttribute('aria-expanded',o);});
-  var dd=document.querySelector('.nav__dd'),db=document.querySelector('.nav__ddbtn');
-  if(dd&&db){
-    db.addEventListener('click',function(e){e.stopPropagation();var o=dd.classList.toggle('open');db.setAttribute('aria-expanded',o);});
-    document.addEventListener('click',function(e){if(!dd.contains(e.target)){dd.classList.remove('open');db.setAttribute('aria-expanded','false');}});
-    db.addEventListener('keydown',function(e){if(e.key==='Escape'){dd.classList.remove('open');db.setAttribute('aria-expanded','false');db.focus();}});
-  }
-  var tt=document.querySelector('.totop');
-  if(tt){window.addEventListener('scroll',function(){tt.classList.toggle('show',window.scrollY>700);},{passive:true});tt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});}
-  var sn=document.querySelector('.secnav');
-  if(sn){var links=[].slice.call(sn.querySelectorAll('a'));var secs=links.map(function(l){return document.querySelector(l.getAttribute('href'));}).filter(Boolean);
-    var spy=function(){var y=window.scrollY+120;var cur=secs[0];secs.forEach(function(s){if(s&&s.offsetTop<=y)cur=s;});links.forEach(function(l){l.classList.toggle('active',cur&&l.getAttribute('href')==='#'+cur.id);});};
-    window.addEventListener('scroll',spy,{passive:true});spy();}
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
-  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
-  
-})();
-</script>
+<script src="../nav.js"></script>
 </body></html>
