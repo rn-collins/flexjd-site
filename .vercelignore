@@ -1,3 +1,5 @@
 docs/
 _patch_*.py
 README.md
+data/
+scripts/
