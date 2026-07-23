@@ -118,8 +118,12 @@ a:hover{color:var(--link-hover);text-decoration:underline;text-underline-offset:
 .nav__ddbtn .chev{font-size:.6rem;transition:transform .2s var(--ease)}
 .nav__dd{position:relative}
 .nav__dd.open .chev{transform:rotate(180deg)}
-.nav__menu{position:absolute;top:calc(100% + 10px);right:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--sh-4);min-width:340px;padding:10px;list-style:none;opacity:0;visibility:hidden;transform:translateY(-10px) scale(.98);transform-origin:top right;transition:opacity .2s var(--ease),transform .2s var(--ease),visibility .2s}
-.nav__dd.open .nav__menu{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+.nav__mega{position:absolute;top:calc(100% + 10px);right:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--sh-4);min-width:540px;padding:14px;display:flex;gap:6px;opacity:0;visibility:hidden;transform:translateY(-10px) scale(.98);transform-origin:top right;transition:opacity .2s var(--ease),transform .2s var(--ease),visibility .2s}
+.nav__dd.open .nav__mega{opacity:1;visibility:visible;transform:translateY(0) scale(1)}
+.nav__megacol{flex:1;min-width:0;padding:0 8px}
+.nav__megacol+.nav__megacol{border-left:1px solid var(--line)}
+.nav__megalabel{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tx-mute);padding:6px 10px 10px}
+.nav__mega .nav__menu{list-style:none;padding:0}
 .nav__menu li{display:block}
 .nav__menu a{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:var(--r);color:var(--ink);font-weight:600;font-size:.94rem}
 .nav__menu a:hover{background:var(--canvas);text-decoration:none}
@@ -138,8 +142,9 @@ a:hover{color:var(--link-hover);text-decoration:underline;text-underline-offset:
   @keyframes navdrop{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
   .nav__links a,.nav__ddbtn{padding:14px 16px;font-size:1.02rem;justify-content:flex-start;width:100%;border-radius:var(--r)}
   .nav__dd{position:static}
-  .nav__menu{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:1px solid var(--line);min-width:0;margin:2px 0 6px;display:none}
-  .nav__dd.open .nav__menu{display:block}
+  .nav__mega{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:1px solid var(--line);min-width:0;margin:2px 0 6px;padding:8px;display:none;flex-direction:column;gap:0}
+  .nav__dd.open .nav__mega{display:flex}
+  .nav__megacol+.nav__megacol{border-left:none;border-top:1px solid var(--line);margin-top:8px;padding-top:8px}
 }
 
 /* ═══ CRISIS BAR (dark, high-contrast) ═══ */
