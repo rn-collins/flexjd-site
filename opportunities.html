@@ -127,9 +127,6 @@
 <style>
 tr.opp-hidden{display:none!important}
 .csec.opp-empty-cat{display:none}
-.oppsearch__nomatch{display:none;text-align:center;padding:64px 24px;color:var(--tx-mute);font-size:1.05rem}
-.oppsearch__nomatch.show{display:block}
-.oppsearch__nomatch strong{display:block;font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin-bottom:10px;font-weight:600}
 </style>
 <script>
 (function(){
@@ -162,7 +159,7 @@ tr.opp-hidden{display:none!important}
       var visRows=s.querySelectorAll('tbody tr:not(.opp-hidden)');
       s.classList.toggle('opp-empty-cat',visRows.length===0);
     });
-    status.innerHTML='<strong>'+visibleCount+'</strong> of '+totalRows+' listings match "'+input.value.replace(/</g,'&lt;')+'"';
+    status.innerHTML='<strong>'+visibleCount+'</strong> of '+totalRows+' listings match "'+input.value.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'"';
   }
   input.addEventListener('input',runFilter);
   clearBtn.addEventListener('click',function(){input.value='';runFilter();input.focus();});

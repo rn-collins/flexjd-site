@@ -42,7 +42,7 @@
 <main id="main">
 <section class="phero dark-panel"><div class="phero__in">
 <div class="phero__eyebrow">All-Purpose Student Guide</div>
-<h1>Everything you need to navigate the FlexJD program</h1>
+<h1>Your complete reference for degree requirements, deadlines, and support</h1>
 <p class="phero__lede">From degree requirements to remote-learning tools to the alumni-outreach playbook — the reference every FlexJD student should bookmark, especially in the first year.</p>
 </div></section>
 <div class="oppsearch" role="search">
@@ -380,7 +380,7 @@ details.faq.res-hidden,tr.res-hidden,.frame.res-hidden{display:none!important}
       var hasSearchables=s.querySelector('details.faq, tbody tr, .frame');
       s.classList.toggle('res-empty', !!hasSearchables && !anyVisible);
     });
-    status.innerHTML='<strong>'+visibleCount+'</strong> matching items for "'+input.value.replace(/</g,'&lt;')+'"';
+    status.innerHTML='<strong>'+visibleCount+'</strong> matching items for "'+input.value.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'"';
   }
   input.addEventListener('input',runFilter);
   clearBtn.addEventListener('click',function(){input.value='';runFilter();input.focus();});
