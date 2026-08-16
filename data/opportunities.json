@@ -3,7 +3,7 @@
   "id": "o3",
   "num": "01",
   "title_raw": "Co-op Opportunities ",
-  "declared_count": "53",
+  "declared_count": "46",
   "headers": [
    "Employer / Organization",
    "Employer Type",
@@ -654,7 +654,7 @@
     "<a class=\"apply-link\" href=\"https://www.aclunc.org/about/opportunities/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ]
   ],
-  "row_count": 53
+  "row_count": 46
  },
  {
   "id": "o10",
@@ -1240,7 +1240,7 @@
   "id": "o1",
   "num": "03",
   "title_raw": "Writing Competitions ",
-  "declared_count": "70",
+  "declared_count": "58",
   "headers": [
    "Competition Name",
    "Sponsor / Organization",
@@ -2237,13 +2237,13 @@
     ""
    ]
   ],
-  "row_count": 70
+  "row_count": 58
  },
  {
   "id": "o2",
   "num": "04",
   "title_raw": "Fellowships ",
-  "declared_count": "51",
+  "declared_count": "42",
   "headers": [
    "Fellowship Name",
    "Sponsor",
@@ -3026,13 +3026,13 @@
     "https://law.<a href=\"https://ucdavis.edu/career-services/job-resources/public-service-fellowships\" rel=\"noopener\" target=\"_blank\">ucdavis.edu/career-services/job-resources/public-service-fellowships</a>"
    ]
   ],
-  "row_count": 51
+  "row_count": 42
  },
  {
   "id": "o4",
   "num": "05",
   "title_raw": "Clerkships ",
-  "declared_count": "29",
+  "declared_count": "25",
   "headers": [
    "Court / Position Type",
    "Geographic Scope",
@@ -3335,13 +3335,13 @@
     "https://libguides.law.<a href=\"https://umich.edu/c.php?g=844705&amp;\" rel=\"noopener\" target=\"_blank\">umich.edu/c.php?g=844705&amp;</a>;amp;p=6037503"
    ]
   ],
-  "row_count": 29
+  "row_count": 25
  },
  {
   "id": "o5",
   "num": "06",
   "title_raw": "Bar Prep ",
-  "declared_count": "27",
+  "declared_count": "24",
   "headers": [
    "Resource / Program",
    "Provider",
@@ -3579,8 +3579,8 @@
     "State Bar Reference",
     "⚠️ Legacy UBE (NY not in NextGen pilot)",
     "Free information",
-    "Students planning NY bar (note: FlexJD cannot sit NY bar)",
-    "⚠️ FlexJD graduates CANNOT sit for NY bar (distance ed &amp;gt; 15-credit cap).",
+    "Students considering New York; individual eligibility must be confirmed directly with the New York Board of Law Examiners",
+    "⚠️ This site does not determine New York eligibility. Confirm current distance-education rules and your individual record directly with NY BOLE and NUSL Bar Success.",
     "<a class=\"apply-link\" href=\"https://www.nybarexam.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ],
    [
@@ -3589,7 +3589,7 @@
     "State Bar Reference",
     "⚠️ CA uses its own exam (not UBE)",
     "Free information",
-    "Students planning CA bar; FlexJD CAN sit for CA bar",
+    "Students considering California; individual eligibility must be confirmed directly with the State Bar of California",
     "🌐 CA uses its own two-day exam (not UBE).",
     "https://www.calbar.<a href=\"https://ca.gov/Admissions/Examinations\" rel=\"noopener\" target=\"_blank\">ca.gov/Admissions/Examinations</a>"
    ],
@@ -3599,8 +3599,8 @@
     "State Bar Reference",
     "⏳ DC not in NextGen pilot",
     "Free information",
-    "Students planning DC bar; FlexJD graduates eligible for DC bar",
-    "🌐 FlexJD students CAN sit for DC bar.",
+    "Students considering the District of Columbia; individual eligibility must be confirmed directly with the Committee on Admissions",
+    "⚠️ This site does not determine District of Columbia eligibility; confirm directly with the Committee on Admissions.",
     "<a class=\"apply-link\" href=\"https://www.dccourts.gov/coa/admissions\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ],
    [
@@ -3624,13 +3624,13 @@
     "<a class=\"apply-link\" href=\"https://lawhub.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ]
   ],
-  "row_count": 27
+  "row_count": 24
  },
  {
   "id": "o6",
   "num": "07",
   "title_raw": "Journals &amp; Publication ",
-  "declared_count": "22",
+  "declared_count": "19",
   "headers": [
    "Journal / Publication",
    "School / Sponsor",
@@ -3909,13 +3909,13 @@
     "https://www.law.<a href=\"https://harvard.edu/academics/journals/\" rel=\"noopener\" target=\"_blank\">harvard.edu/academics/journals/</a>"
    ]
   ],
-  "row_count": 22
+  "row_count": 19
  },
  {
   "id": "o7",
   "num": "08",
   "title_raw": "Pro Bono &amp; Volunteer ",
-  "declared_count": "19",
+  "declared_count": "17",
   "headers": [
    "Organization / Program",
    "Program Type",
@@ -4118,13 +4118,13 @@
     "<a class=\"apply-link\" href=\"https://constitutioncenter.org/learn/scholar-exchanges\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ]
   ],
-  "row_count": 19
+  "row_count": 17
  },
  {
   "id": "o8",
   "num": "09",
   "title_raw": "NUSL Funding ",
-  "declared_count": "19",
+  "declared_count": "17",
   "headers": [
    "Program / Fund",
    "Type",
@@ -4327,13 +4327,13 @@
     "<a href=\"https://graduate.northeastern.edu/resources/graduate-student-funding/\" rel=\"noopener\" target=\"_blank\">graduate.northeastern.edu/resources/graduate-student-funding/</a>"
    ]
   ],
-  "row_count": 19
+  "row_count": 17
  },
  {
   "id": "o9",
   "num": "10",
   "title_raw": "External Scholarships ",
-  "declared_count": "27",
+  "declared_count": "25",
   "headers": [
    "Scholarship / Grant",
    "Sponsor",
@@ -4560,6 +4560,6 @@
     "<a class=\"apply-link\" href=\"https://www.iaba.us/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
    ]
   ],
-  "row_count": 27
+  "row_count": 25
  }
 ]

@@ -40,7 +40,9 @@ JSON_PATH = ROOT / "data" / "opportunities.json"
 def build_table(section):
     headers_html = "".join(f'<th scope="col">{h}</th>' for h in section["headers"])
     rows_html = "".join(
-        "<tr>" + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>"
+        (f'<tr class="opportunity-group" data-listing="false"><th scope="rowgroup" colspan="{len(row)}">{row[0]}</th></tr>'
+         if is_group_row(row) else
+         '<tr data-listing="true" data-last-verified="2026-07-22" data-status="research-lead">' + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>")
         for row in section["rows"]
     )
     return f'<table class="data"><thead><tr>{headers_html}</tr></thead><tbody>{rows_html}</tbody></table>'
@@ -69,7 +71,7 @@ def main():
     # Update each section's declared "· NN listings" count to match its real
     # row count, and keep the JSON's own bookkeeping fields honest too.
     for section in sections:
-        actual = len(section["rows"])
+        actual = sum(not is_group_row(row) for row in section["rows"])
         section["row_count"] = actual
         section["declared_count"] = str(actual)
         old_count_pattern = re.compile(
@@ -92,6 +94,11 @@ def main():
     )
     total = sum(s["row_count"] for s in sections)
     print(f"Regenerated {len(sections)} tables, {total} total listings.")
+
+
+def is_group_row(row):
+    """A visual table heading is not an opportunity record."""
+    return bool(row and row[0].strip()) and not any(cell.strip() for cell in row[1:])
 
 
 if __name__ == "__main__":

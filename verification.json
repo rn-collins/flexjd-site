@@ -1,0 +1,10 @@
+{
+  "build": "RR-019 FlexJD Resource Hub",
+  "verified_on": "2026-08-15",
+  "institutional_status": "independent student-maintained resource; not an official Northeastern publication",
+  "opportunity_records": 328,
+  "opportunity_source_reviewed_on": "2026-07-22",
+  "opportunity_currentness": "research leads; current status must be confirmed at the original source",
+  "collection": {"site_contact_form": false, "custom_tracking_endpoint": false, "browser_utm_storage": false, "vercel_web_analytics": true, "vercel_speed_insights": true},
+  "corrections": "mailto:collins.ra@northeastern.edu?subject=FlexJD%20Resource%20Hub%20correction"
+}
