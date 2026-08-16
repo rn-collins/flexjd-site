@@ -472,3 +472,11 @@ table.data td a.apply-link:hover{background:var(--accent-strong);color:#fff}
 .oppsearch__status{margin-top:10px;font-size:.95rem;font-weight:600;color:var(--tx-soft);min-height:1.2em}
 .oppsearch__status:not(:empty){display:inline-block;background:var(--accent-wash);padding:8px 14px;border-radius:var(--r-pill)}
 .oppsearch__status strong{color:var(--ink);font-weight:700}
+/* RR-019 shared actions and governed opportunity-table headings */
+.site-actions{position:fixed;right:1rem;bottom:1rem;z-index:50;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.5rem;max-width:min(92vw,38rem)}
+.site-actions a{display:inline-flex;align-items:center;min-height:44px;padding:.6rem .9rem;border:1px solid #B8842A;border-radius:999px;background:#fff;color:#5A4000;font:700 .72rem/1.2 var(--sans);letter-spacing:.03em;text-decoration:none;box-shadow:0 3px 14px rgba(0,0,0,.18)}
+.site-actions a:last-child{background:#B8842A;color:#fff}
+.builder-credit{text-align:center;padding:.85rem 1rem 5rem;font-size:.72rem;border-top:1px solid rgba(0,0,0,.1)}
+.builder-credit a{color:#1B7A68}
+.opportunity-group th{padding:.75rem 1rem;background:var(--canvas-2);color:var(--ink);font-size:.78rem;letter-spacing:.03em;text-align:left}
+@media (max-width:600px){.site-actions{left:.65rem;right:.65rem;bottom:.65rem}.site-actions a{flex:1 1 auto;justify-content:center}.builder-credit{padding-bottom:7rem}}

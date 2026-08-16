@@ -54,6 +54,8 @@ def main() -> int:
     for source, document in parsed.items():
         for attr, raw in document.links:
             split = urlsplit(raw)
+            if split.path.startswith("/_vercel/"):
+                continue
             if split.scheme.lower() in SKIP_SCHEMES or raw.startswith("//"):
                 continue
             if not split.path and split.fragment:

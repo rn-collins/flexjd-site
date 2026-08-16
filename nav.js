@@ -3,7 +3,7 @@
   var onscroll=function(){if(nav)nav.classList.toggle('scrolled',window.scrollY>12);};
   window.addEventListener('scroll',onscroll,{passive:true});onscroll();
   var tg=document.querySelector('.nav__toggle'),lk=document.querySelector('.nav__links');
-  if(tg&&lk)tg.addEventListener('click',function(){var o=lk.classList.toggle('open');tg.setAttribute('aria-expanded',o);});
+  if(tg&&lk)tg.addEventListener('click',function(){var o=lk.classList.toggle('open');tg.setAttribute('aria-expanded',o);tg.setAttribute('aria-label',o?'Close navigation menu':'Open navigation menu');});
   document.querySelectorAll('.nav__dd').forEach(function(dd){
     var db=dd.querySelector('.nav__ddbtn');
     if(!dd||!db)return;

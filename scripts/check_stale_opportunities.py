@@ -4,7 +4,7 @@
 The checker recognizes optional HTML attributes:
   data-deadline="YYYY-MM-DD"
   data-last-verified="YYYY-MM-DD"
-  data-status="active|rolling|expired|archived"
+  data-status="active|rolling|research-lead|expired|archived"
 
 It also reports date-like text for human review. It fails only for malformed control
 attributes, not merely because an opportunity has expired.
@@ -51,7 +51,7 @@ def main() -> int:
         if attrs:
             controlled_records += 1
             status = attrs.get("status", "active").lower()
-            if status not in {"active", "rolling", "expired", "archived"}:
+            if status not in {"active", "rolling", "research-lead", "expired", "archived"}:
                 errors.append(f"line {line_no}: unsupported data-status {status!r}")
 
             deadline = None
@@ -67,8 +67,8 @@ def main() -> int:
                 )
             if verified:
                 age = (TODAY - verified).days
-                limit = 60 if status == "rolling" else 14
-                if status in {"active", "rolling"} and age > limit:
+                limit = 60 if status == "rolling" else (30 if status == "research-lead" else 14)
+                if status in {"active", "rolling", "research-lead"} and age > limit:
                     warnings.append(
                         f"line {line_no}: last verified {age} days ago; review threshold is {limit}"
                     )
