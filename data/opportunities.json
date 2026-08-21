@@ -6044,7 +6044,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve the dated OSCAR hiring-plan cycle; use the current official OSCAR timeline before acting.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://oscar.uscourts.gov/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6061,7 +6068,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.supremecourt.gov/jobs/jobs.aspx",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6078,7 +6092,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://oscar.uscourts.gov/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6095,7 +6116,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://oscar.uscourts.gov/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6112,7 +6140,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://oscar.uscourts.gov/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6129,7 +6164,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ustaxcourt.gov/employment.html",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6146,7 +6188,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.uscfc.uscourts.gov/job-opportunities-employment",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6163,7 +6212,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.cit.uscourts.gov/human-resources-general-information",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6180,7 +6236,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.armfor.uscourts.gov/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6197,7 +6260,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ca7.uscourts.gov/pages/LandingPage.php?page=employment-information",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "group",
@@ -6228,7 +6298,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.mass.gov/info-details/becoming-a-law-clerk-in-the-massachusetts-court-system",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6245,7 +6322,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.mass.gov/info-details/becoming-a-law-clerk-in-the-massachusetts-court-system",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6262,7 +6346,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.nycourts.gov/careers/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6284,8 +6375,8 @@
           "state": "source-checked",
           "source_url": "https://courts.ca.gov/about/careers",
           "checked_at": "2026-08-20",
-          "evidence_note": "Official California Judicial Branch careers destination checked; no specific appellate clerkship cycle or deadline was certified.",
-          "next_review_at": "2026-09-20"
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
         }
       },
       {
@@ -6303,7 +6394,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.opm.gov/policy-data-oversight/hiring-information/federal-attorney-recruiting-hiring/federal-career-guide-for-law-students.pdf",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "group",
@@ -6334,7 +6432,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.uscourts.cavc.gov/clerkship_program.php",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6351,7 +6456,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.opm.gov/services-for-agencies/administrative-law-judges/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6373,8 +6485,8 @@
           "state": "source-checked",
           "source_url": "https://www.njcourts.gov/public/careers",
           "checked_at": "2026-08-20",
-          "evidence_note": "Official New Jersey Courts careers destination checked; no court or chambers vacancy, application window, or deadline was certified.",
-          "next_review_at": "2026-09-20"
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
         }
       },
       {
@@ -6392,7 +6504,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.pacourts.us/courts/supreme-court",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6409,7 +6528,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.illinoiscourts.gov/courts/supreme-court/about/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6426,7 +6552,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.courts.wa.gov/appellate_trial_courts/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6448,8 +6581,8 @@
           "state": "source-checked",
           "source_url": "https://www.courts.oregon.gov/courts/appellate/Pages/clerkships.aspx",
           "checked_at": "2026-08-20",
-          "evidence_note": "Official Oregon appellate clerkship destination checked; the active hiring year and chambers-specific requirements remain unverified.",
-          "next_review_at": "2026-09-20"
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
         }
       },
       {
@@ -6472,8 +6605,8 @@
           "state": "source-checked",
           "source_url": "https://www.courts.state.hi.us/general_information/jobs",
           "checked_at": "2026-08-20",
-          "evidence_note": "Official Hawaiʻi Judiciary employment destination checked; no current appellate clerkship vacancy or deadline was certified.",
-          "next_review_at": "2026-09-20"
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
         }
       },
       {
@@ -6505,7 +6638,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://community.lawschool.cornell.edu/careers/judicial-clerkships/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6522,7 +6662,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official destination identifies the court or program, but no current chambers vacancy, application window, eligibility rule, or start date was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://libguides.law.umich.edu/federalclerkships",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official court, judiciary, or clerkship destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-10-01"
+        }
       }
     ],
     "row_count": 25
@@ -6586,7 +6733,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/exams/nextgen",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6603,7 +6757,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/exams/nextgen/sample-questions",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6620,7 +6781,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/study-aids/nextgen-ube",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6637,7 +6805,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://nextgenbarexam.ncbex.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6654,7 +6829,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.barbri.com",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6671,7 +6853,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.barbri.com/resources/what-is-the-nextgen-bar-exam",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6688,7 +6877,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.themisbar.com",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6705,7 +6901,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.kaptest.com/bar-review",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6722,7 +6925,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.adaptibar.com",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6739,7 +6949,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://legal.uworld.com/mbe/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6756,7 +6973,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://jdadvising.com/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6773,7 +6997,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.helixbarreview.com/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6790,7 +7021,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.smartbarprep.com",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6807,7 +7045,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.quimbee.com/bar-review-courses",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6824,7 +7069,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/exams/mbe",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6841,7 +7093,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/study-aids",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6858,7 +7117,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.ncbex.org/exams/mpre",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6875,7 +7141,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.accesslex.org/bar-success",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6892,7 +7165,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve this earlier NUSL Bar Success contact or program state as historical; verify the current program directly with NUSL.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://law.northeastern.edu/academics/academic-resources/academic-success-program/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6909,7 +7189,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.mass.gov/orgs/board-of-bar-examiners",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6926,7 +7213,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.nybarexam.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6943,7 +7237,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.calbar.ca.gov/Admissions/Examinations",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -6960,7 +7261,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Official authority destination is useful, but exam dates, jurisdictions, fees, format, eligibility, and transition rules require a dated authority-page check.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.dccourts.gov/coa/admissions",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "group",
@@ -6991,7 +7299,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Sponsor identity is established; price, included products, discounts, guarantees, question counts, and NextGen coverage remain unverified marketing terms.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://lawhub.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official exam authority or provider destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       }
     ],
     "row_count": 24
@@ -7047,7 +7362,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://harvardlpr.com/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7066,7 +7388,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve this dated publication or submission lead as historical; no current cycle or open submission window was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://vjel.vermontlaw.edu/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7085,7 +7414,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve this dated publication or submission lead as historical; no current cycle or open submission window was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://btlj.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7104,7 +7440,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve this dated publication or submission lead as historical; no current cycle or open submission window was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://ailr.law.ou.edu/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7123,7 +7466,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://law.stanford.edu/stanford-technology-law-review/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7142,7 +7492,14 @@
         ],
         "status": "historical",
         "status_reason": "Preserve this dated publication or submission lead as historical; no current cycle or open submission window was certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://georgetownlawtechreview.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7161,7 +7518,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.yalejreg.com/nc/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7180,7 +7544,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://scholasticahq.com/law-review-journal-submissions",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7199,7 +7570,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.bepress.com/expresso/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "group",
@@ -7234,7 +7612,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.americanbar.org/groups/state_local_government/publications/urban_lawyer/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7253,7 +7638,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://journals.library.columbia.edu/index.php/lawandarts",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7272,7 +7664,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://hrlr.law.columbia.edu/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7291,7 +7690,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://harvardcrcl.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7310,7 +7716,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://repository.law.umich.edu/mjrl/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7329,7 +7742,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.bu.edu/law/journals-archive/international/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7348,7 +7768,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.bc.edu/bc-web/schools/law/academics-faculty/law-journals/environmental-affairs.html",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7367,7 +7794,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.hnlr.org/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "group",
@@ -7402,7 +7836,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://www.law.upenn.edu/journals/conlaw/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -7421,7 +7862,14 @@
         ],
         "status": "needs-review",
         "status_reason": "The official journal or platform destination is useful, but current unsolicited-submission availability, rules, fees, and timing were not certified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://journals.law.harvard.edu/jol/",
+          "checked_at": "2026-08-20",
+          "evidence_note": "Official journal, publisher, or submission-platform destination retained as a research source; current availability and record-specific claims remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       }
     ],
     "row_count": 19
@@ -8046,7 +8494,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://law.northeastern.edu/academics/academic-resources/academic-success-program/",
+          "checked_at": "2026-08-21",
+          "evidence_note": "Official NUSL Academic Success page retained; it does not publish a current bar-preparation stipend amount or availability.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -8109,9 +8564,16 @@
           "Small but accessible.",
           "<a href=\"https://gsg.northeastern.edu/\" rel=\"noopener\" target=\"_blank\">gsg.northeastern.edu/</a>"
         ],
-        "status": "rolling",
-        "status_reason": "Corpus text describes a rolling, ongoing, or year-round cycle; current availability is not externally verified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "status": "needs-review",
+        "status_reason": "Official Northeastern source retained, but the recorded rolling cycle and funding details are not currently substantiated.",
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://gsg.northeastern.edu/",
+          "checked_at": "2026-08-21",
+          "evidence_note": "Official Northeastern GSG destination retained; no current law-student grant amount or rolling application cycle was confirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -8286,7 +8748,14 @@
         ],
         "status": "needs-review",
         "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-        "corpus_reviewed_at": "2026-08-20"
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://law.northeastern.edu/",
+          "checked_at": "2026-08-21",
+          "evidence_note": "Official NUSL destination retained; the claimed award program, eligibility, nomination process, and timing remain unconfirmed.",
+          "next_review_at": "2026-11-01"
+        }
       },
       {
         "record_type": "listing",
@@ -8301,9 +8770,16 @@
           "Good for conference travel or research-related costs.",
           "<a href=\"https://graduate.northeastern.edu/resources/graduate-student-funding/\" rel=\"noopener\" target=\"_blank\">graduate.northeastern.edu/resources/graduate-student-funding/</a>"
         ],
-        "status": "rolling",
-        "status_reason": "Corpus text describes a rolling, ongoing, or year-round cycle; current availability is not externally verified.",
-        "corpus_reviewed_at": "2026-08-20"
+        "status": "needs-review",
+        "status_reason": "Official Northeastern source retained, but the recorded rolling cycle and funding details are not currently substantiated.",
+        "corpus_reviewed_at": "2026-08-20",
+        "verification": {
+          "state": "source-checked",
+          "source_url": "https://graduate.northeastern.edu/resources/graduate-student-funding/",
+          "checked_at": "2026-08-21",
+          "evidence_note": "Official Northeastern graduate-funding destination retained; no current travel-grant amount, law-student eligibility, or rolling cycle was confirmed.",
+          "next_review_at": "2026-11-01"
+        }
       }
     ],
     "row_count": 17
