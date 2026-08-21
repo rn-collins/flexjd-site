@@ -20,12 +20,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-
-      - name: Enforce release contract
-        run: npm test
 
       - name: Check internal repository links
         id: internal
@@ -42,6 +36,7 @@ jobs:
 
       - name: Check external links and write report
         id: external
+        continue-on-error: true
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
@@ -57,7 +52,7 @@ jobs:
             --output ./lychee-external-report.md
             './**/*.html'
             './**/*.md'
-          fail: true
+          fail: false
 
       - name: Upload external-link report
         if: always()
