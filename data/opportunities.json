@@ -6407,14 +6407,21 @@
      "Student-run grant",
      "~$24,000 distributed annually across recipients",
      "Upper-level JD students accepting unfunded public interest co-ops",
-     "Apply via CISP student leadership during co-op period",
-     "During co-op semester",
-     "Student-run, student-managed.",
-     "<a class=\"apply-link\" href=\"https://www.facebook.com/nusl.cisp/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Contact CISP student leadership; Northeastern does not publish an application form on its public page",
+     "Confirm the current co-op-cycle deadline with CISP",
+     "Student-run and student-managed; the official NUSL page says CISP distributes approximately $24,000 annually.",
+     "<a class=\"apply-link\" href=\"https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/\" rel=\"noopener\" target=\"_blank\">Official NUSL description →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL pages confirm CISP and its approximate annual distribution, but do not publish a current application form or deadline.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the program description, student-run structure, unfunded-public-interest-co-op focus, and approximate annual distribution; no current application deadline was published.",
+     "next_review_at": "2026-10-15"
+    }
    },
    {
     "record_type": "listing",
@@ -6424,14 +6431,21 @@
      "NUSL Endowment",
      "Varies (endowed)",
      "NUSL students undertaking non-paying or low-paying public service co-ops",
-     "Apply through NUSL Co-op Office / CDO",
-     "Coordinate with CDO before co-op semester",
-     "Named endowed fund supporting NUSL public interest co-ops.",
-     "<a href=\"https://givingday.northeastern.edu/campaigns/givelber-subrin-public-interest-law-co-op-fund-2\" rel=\"noopener\" target=\"_blank\">givingday.northeastern.edu/campaigns/givelber-subrin-public-interest-law-co-op-fund-2</a>"
+     "Ask the Co-op Office or Financial Aid how this endowed fund is allocated",
+     "No public student deadline located",
+     "Official NUSL reporting confirms the fund supports nonpaying or low-paying public-service co-ops; the public page does not describe a separate student application.",
+     "<a href=\"https://law.northeastern.edu/a-million-thanks-for-dan-givelber-northeastern-law-reaches-goal-of-honoring-beloved-professor-and-former-dean/\" rel=\"noopener\" target=\"_blank\">Official NUSL fund description →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL reporting confirms the endowed fund and its purpose, but no separate public student application or deadline was located.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/a-million-thanks-for-dan-givelber-northeastern-law-reaches-goal-of-honoring-beloved-professor-and-former-dean/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the fund's existence and purpose through NUSL; application mechanics and current allocations are not stated publicly.",
+     "next_review_at": "2027-02-15"
+    }
    },
    {
     "record_type": "listing",
@@ -6441,14 +6455,21 @@
      "NUSL-administered",
      "Limited stipends (varies by year)",
      "Upper-level JD students with confirmed public interest co-op placements (asylum, eviction, DV, public defenders, etc.)",
-     "Coordinate with NUSL Co-op Office (Quaime Lee / <a href=\"mailto:lawcoop@northeastern.edu\">lawcoop@northeastern.edu</a>)",
-     "Before co-op semester begins",
-     "NUSL's primary co-op funding pool for public interest students.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/additional-resources/</a>"
+     "Contact the Co-op Office or Financial Aid for the current stipend process",
+     "Confirm before accepting an unpaid public-interest co-op",
+     "NUSL confirms that the fund supports limited co-op stipends; amounts and application timing are not published on the public page.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/public-interest-support/\" rel=\"noopener\" target=\"_blank\">Official NUSL program page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "NUSL confirms the continuing co-op stipend program, but its public page does not publish current amounts, forms, or deadlines.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/public-interest-support/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the Fund for the Public Interest co-op stipend program and its public-interest purpose; current award and application details require direct confirmation.",
+     "next_review_at": "2026-10-15"
+    }
    },
    {
     "record_type": "listing",
@@ -6456,16 +6477,23 @@
     "cells": [
      "NUSL Loan Deferral and Forgiveness Program (LD/F)",
      "NUSL Post-Grad",
-     "$3M+ distributed to 425+ graduates over program history",
-     "JD graduates working in public interest law for 3–5 years post-graduation",
-     "Apply post-graduation via NUSL alumni affairs and financial aid",
-     "Post-graduation",
-     "NUSL has operated LD/F since 1990.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/</a>"
+     "Formula-based; official page says the last award cycle averaged $3,194",
+     "NUSL graduates in qualifying law-related public-interest or government work, subject to debt, income, and program rules",
+     "Review the official guidelines and submit the application to NUSL Financial Aid",
+     "Round 1: November 14, 2025; Round 2: May 29, 2026 — both have passed",
+     "Preserved for planning: the public 2025–26 deadlines are historical. Check the official page for the next cycle.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/ldf/\" rel=\"noopener\" target=\"_blank\">Official LD/F page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official NUSL page lists November 14, 2025 and May 29, 2026 deadlines; both have passed as of this review.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-historical",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/ldf/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the published 2025–26 deadlines, eligibility overview, application channel, and last-cycle average; no later cycle was posted.",
+     "next_review_at": "2026-10-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6475,14 +6503,21 @@
      "Federal + NUSL",
      "Varies by year / FAFSA award",
      "NUSL students with Federal Work-Study in FAFSA award; on co-op",
-     "Apply via FAFSA + NUSL Financial Aid office",
-     "With FAFSA application (annual, by March)",
-     "Limited Work-Study slots available for co-op placements.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/</a>"
+     "Complete the FAFSA and ask NUSL Financial Aid or the Co-op Office about the limited co-op allocation",
+     "NUSL priority FAFSA filing date: February 15; confirm co-op hiring timing separately",
+     "Official NUSL guidance confirms a limited amount of Work-Study funding for students on co-op.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/\" rel=\"noopener\" target=\"_blank\">Official NUSL current-student resources →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "NUSL confirms limited Work-Study funding for co-op and a February 15 priority FAFSA date, but does not publish a separate co-op application cycle.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified that limited Work-Study funding is available for co-op; the February 15 priority FAFSA date is published on NUSL's Financial Aid page.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6507,16 +6542,23 @@
     "cells": [
      "NUSL Public Interest Law Scholarship (incoming)",
      "NUSL Endowment",
-     "Full tuition (incoming 1Ls only)",
+     "Full tuition plus three $5,000 unpaid-public-interest co-op stipends",
      "Incoming 1Ls; public interest commitment",
-     "Awarded at admission",
-     "Admitted with scholarship",
-     "Included for completeness.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/</a>"
+     "Automatic consideration for applicants who apply by March 1; optional PILS essay may bolster candidacy",
+     "March 1 applicant deadline stated on the official scholarship page",
+     "Incoming-student award included for planning; current recipients should consult their award terms.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the award structure and March 1 application timing, but the page does not identify a specific admissions year.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified full tuition, three $5,000 co-op stipends, automatic consideration, and the page's March 1 applicant deadline; cycle year is not stated.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6524,16 +6566,23 @@
     "cells": [
      "NUSL Law, Equity, and Race (CLEAR) Scholarship",
      "NUSL Endowment",
-     "Full tuition + $2,000 co-op stipend (incoming)",
+     "Half to full tuition + $2,000 co-op stipend",
      "Incoming 1Ls; racial equity focus",
-     "Awarded at admission",
-     "Admitted with scholarship",
-     "Annual $2,000 co-op stipend is the most actionable component for current enrolled students with this scholarship — verify with Financial Aid.",
-     "<a href=\"https://law.northeastern.edu/academics/centers-institutes/clear/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/academics/centers-institutes/clear/</a>"
+     "Awarded to admitted applicants; official page does not state a separate scholarship application",
+     "See the current admissions application timeline",
+     "The official scholarship page confirms a $2,000 co-op stipend, not that it recurs annually.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the half-to-full-tuition scholarship and $2,000 co-op stipend, but no separate current-cycle deadline is published.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current published award terms and focus; removed the unsupported claim that the co-op stipend is annual.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6566,8 +6615,15 @@
      "<a class=\"apply-link\" href=\"https://pdsoros.org/application-process/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "upcoming",
-    "status_reason": "Corpus text contains a future-cycle date or estimate; availability is not externally verified.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official sponsor page confirms the 2027 application is open and due October 29, 2026 at 2:00 p.m. ET.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://pdsoros.org/application-process/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the open 2027 application, October 29, 2026 at 2:00 p.m. ET deadline, eligibility framework, and up-to-$90,000 support on the sponsor page.",
+     "next_review_at": "2026-09-29"
+    }
    },
    {
     "record_type": "group",
@@ -6589,16 +6645,23 @@
     "cells": [
      "NUSL Lawyering Fellows Program (paid)",
      "NUSL Academic",
-     "Paid (stipend — verify with NUSL)",
-     "Upper-level JD students; application announced annually by NUSL Registrar/Faculty",
-     "Apply via NUSL Registrar / Faculty announcement",
-     "Annual (announced spring semester)",
-     "Upper-level students assist in 1L instruction or faculty research.",
-     "<a href=\"https://law.northeastern.edu/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/</a>"
+     "Paid; public page does not state the amount",
+     "Upper-level students; positions may be lawyering-fellow or faculty research roles",
+     "Watch for the annual NUSL announcement and confirm requirements with the school",
+     "Offered annually; no current deadline on the public page",
+     "Official NUSL guidance confirms paid positions but not the current cycle, stipend, or duties for each role.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/\" rel=\"noopener\" target=\"_blank\">Official NUSL current-student resources →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "NUSL confirms annual paid upper-level lawyering-fellow and faculty-research opportunities, but does not publish a current deadline or amount.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified that paid upper-level positions are offered annually; current application mechanics, duties, and pay are not stated.",
+     "next_review_at": "2027-02-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6606,16 +6669,23 @@
     "cells": [
      "NUSL Health Policy and Law Scholarship",
      "NUSL Endowment",
-     "Full tuition + $2,000 co-op stipend",
+     "Half to full tuition + $2,000 co-op stipend",
      "Incoming 1Ls; health policy/law focus; affiliated with Center for Health Law and Policy Innovation (CHLPI)",
-     "Awarded at admission; $2,000 co-op stipend renewable",
-     "Admitted with scholarship",
-     "Annual $2,000 co-op stipend is actionable for enrolled students holding this scholarship.",
-     "<a href=\"https://law.northeastern.edu/academics/centers-institutes/health-law/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/academics/centers-institutes/health-law/</a>"
+     "Awarded to admitted applicants; official page does not state a separate scholarship application",
+     "See the current admissions application timeline",
+     "The official page confirms one $2,000 co-op stipend; it does not describe it as renewable or annual.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the half-to-full-tuition award and $2,000 co-op stipend, but no separate current-cycle deadline is published.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current published award terms and removed unsupported claims that the stipend is renewable or annual.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6623,16 +6693,23 @@
     "cells": [
      "NUSL Intellectual Property &amp; Innovation Scholarship",
      "NUSL Endowment",
-     "Full tuition",
+     "Half to full tuition + $2,000 co-op stipend",
      "Incoming 1Ls; IP/innovation focus; affiliated with CLIC (Center for Law, Innovation &amp; Creativity)",
-     "Awarded at admission",
-     "Admitted with scholarship",
-     "Upper-level renewal.",
-     "<a href=\"https://law.northeastern.edu/academics/centers-institutes/clic/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/academics/centers-institutes/clic/</a>"
+     "Awarded to admitted applicants; official page does not state a separate scholarship application",
+     "See the current admissions application timeline",
+     "Also includes mentoring, IAPP privacy-certification exam-fee support, and CLIC opportunities; consult award terms for continuation requirements.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the half-to-full-tuition award, $2,000 co-op stipend, and program benefits, but no separate current-cycle deadline is published.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current published award terms and corrected the earlier full-tuition-only description.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6642,14 +6719,21 @@
      "NUSL Endowment",
      "Merit-based scholarship (amount varies)",
      "Alumni of Peace Corps, City Year, or Teach For America programs",
-     "Awarded at admission",
-     "Admitted with scholarship",
-     "If you are a Peace Corps/City Year/TFA alum, confirm you were notified of this scholarship at admission.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/</a>"
+     "Awarded through the admissions scholarship process",
+     "See the current admissions application timeline",
+     "Official NUSL guidance confirms merit-based tuition scholarships for alumni of these service programs; it does not publish a standard amount.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the scholarship category but does not publish a current-cycle deadline or standard amount.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the merit-based scholarship category for Peace Corps, City Year, and Teach For America alumni; amount and cycle details are not stated.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6658,15 +6742,22 @@
      "NUSL Northeastern University Law Grants (NULG)",
      "Northeastern University",
      "Need-based (amount varies per student)",
-     "JD students demonstrating financial need (all NUSL JD students including FlexJD)",
-     "Via FAFSA application + NUSL Financial Aid review",
-     "FAFSA by March annually",
-     "Institutional need-based grant — no repayment.",
-     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/\" rel=\"noopener\" target=\"_blank\">law.northeastern.edu/admissions/jd/financial-aid/</a>"
+     "Admitted first-year law students demonstrating financial need; the public page does not separately describe FlexJD eligibility",
+     "File the FAFSA; NUSL Financial Aid determines award decisions",
+     "NUSL priority FAFSA filing date: February 15",
+     "Institutionally funded need-based tuition scholarship; recipients do not repay it.",
+     "<a href=\"https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/\" rel=\"noopener\" target=\"_blank\">Official NUSL scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official NUSL guidance confirms the need-based grant and FAFSA process; the school publishes February 15 as its priority financial-aid date.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified need-based first-year eligibility, FAFSA requirement, non-repayment, and decision authority; February 15 comes from NUSL's Financial Aid page.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",

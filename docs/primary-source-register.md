@@ -17,6 +17,10 @@ This register is the controlling source map for institutional copy. A link appea
 - [FlexJD financial aid](https://law.northeastern.edu/admissions/flexjd/financial-aid/) — types of aid; February 15 priority filing date; scholarship conditions; refund process; financial-aid contact.
 - [FlexJD tuition and budgeting](https://law.northeastern.edu/admissions/flexjd/tuition-and-budgeting/) — tuition, refund schedule, withdrawals, reduced course loads, direct deposit, and aid-adjustment boundaries.
 - [FlexJD financial counseling](https://law.northeastern.edu/admissions/flexjd/financial-counseling/) — official AccessLex counseling resources for admitted and current students.
+- [NUSL scholarships](https://law.northeastern.edu/admissions/jd/financial-aid/scholarships/) — published terms for PILS, Law/Equity/Race, Health Policy/Law, Intellectual Property/Innovation, service-program scholarships, and the Northeastern University Law Grant. A named admissions year is not stated on the page, so the tracker treats these as source-checked rather than current-cycle confirmed.
+- [Public Interest Law Support](https://law.northeastern.edu/admissions/jd/financial-aid/public-interest-support/) — Fund for the Public Interest, co-op stipend program, PILS benefits, and Loan Deferral and Forgiveness context.
+- [Loan Deferral and Forgiveness Program](https://law.northeastern.edu/admissions/jd/financial-aid/ldf/) — eligibility, award method, application channel, and the now-passed November 14, 2025 and May 29, 2026 deadlines.
+- [Additional resources for current students](https://law.northeastern.edu/admissions/jd/financial-aid/additional-resources/) — CISP, limited Work-Study funding for co-op, and annually offered paid upper-level positions. The page does not publish current student-application deadlines.
 
 ## People and offices
 
