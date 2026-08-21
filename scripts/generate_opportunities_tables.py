@@ -37,12 +37,20 @@ HTML_PATH = ROOT / "opportunities.html"
 JSON_PATH = ROOT / "data" / "opportunities.json"
 
 
+def validate_section(section):
+    width = len(section['headers'])
+    bad = [i + 1 for i, row in enumerate(section['rows']) if len(row) != width]
+    if bad:
+        raise SystemExit(f"{section['id']}: rows with wrong width {bad}; expected {width}")
+
+
 def build_table(section):
+    validate_section(section)
     headers_html = "".join(f'<th scope="col">{h}</th>' for h in section["headers"])
     rows_html = "".join(
         (f'<tr class="opportunity-group" data-listing="false"><th scope="rowgroup" colspan="{len(row)}">{row[0]}</th></tr>'
          if is_group_row(row) else
-         '<tr data-listing="true" data-last-verified="2026-07-22" data-status="research-lead">' + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>")
+         '<tr data-listing="true" data-last-verified="2026-07-22" data-status="needs-review">' + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>")
         for row in section["rows"]
     )
     return f'<table class="data"><thead><tr>{headers_html}</tr></thead><tbody>{rows_html}</tbody></table>'
