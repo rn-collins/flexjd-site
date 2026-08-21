@@ -24,6 +24,8 @@ def validate(sections):
     if not r.get('status_reason','').strip(): raise SystemExit(f'{rid}: missing status_reason')
     try: date.fromisoformat(r.get('corpus_reviewed_at',''))
     except ValueError: raise SystemExit(f'{rid}: invalid corpus_reviewed_at')
+    if r.get('verified_at') not in {None,''}: raise SystemExit(f'{rid}: verified_at is unsupported until an external-verification schema is implemented')
+    if 'href="http' not in ' '.join(str(cell) for cell in cells): raise SystemExit(f'{rid}: missing sponsor/originating-source destination')
    else: other+=1
   if count!=int(section['declared_count']) or count!=section.get('row_count'): raise SystemExit(f"{section['id']}: listing count mismatch")
  if (listings,other)!=(328,44): raise SystemExit(f'expected 328 listings + 44 non-listings, got {listings} + {other}')
@@ -53,5 +55,5 @@ def main():
  if args.check and current!=generated:
   print('opportunities.html is not synchronized with data/opportunities.json',file=sys.stderr); return 1
  if not args.check and current!=generated: HTML_PATH.write_text(generated,encoding='utf-8')
- print('Validated 10 tables: 328 listings and 44 preserved group/placeholder rows.'); return 0
+ print('Validated 10 tables: 328 unverified listings and 44 preserved group/placeholder rows.'); return 0
 if __name__=='__main__': raise SystemExit(main())

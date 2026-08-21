@@ -23,6 +23,9 @@ def main():
     if not r.get('status_reason','').strip(): errors.append(f'{rid}: missing status reason')
     try: date.fromisoformat(r.get('corpus_reviewed_at',''))
     except ValueError: errors.append(f'{rid}: invalid corpus reviewed date')
+    if r.get('verified_at') not in {None,''}: errors.append(f'{rid}: verified_at is set, but this registry has no externally verified status model')
+    joined=' '.join(str(cell) for cell in cells)
+    if 'href="http' not in joined: errors.append(f'{rid}: no sponsor/originating-source destination')
    elif kind in {'group','placeholder'}: groups+=1
    else: errors.append(f'{rid}: unsupported record type {kind!r}')
   if listed!=int(section['declared_count']) or listed!=section['row_count']: errors.append(f"{section['id']}: listing count mismatch")
@@ -32,6 +35,6 @@ def main():
  if errors:
   for error in errors: print('ERROR:',error)
   return 1
- print('Registry controls valid. Statuses are corpus triage, not external verification of availability.')
+ print('Registry controls valid. No record is externally verified; statuses describe corpus language and triage only.')
  return 0
 if __name__=='__main__': raise SystemExit(main())
