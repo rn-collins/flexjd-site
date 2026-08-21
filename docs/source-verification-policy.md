@@ -6,14 +6,12 @@ This policy governs institutional information, academic requirements, contacts, 
 
 ## Source hierarchy
 
-Use sources in this order whenever available:
+Published factual claims must trace to a primary source:
 
 1. official Northeastern University or Northeastern University School of Law webpages, catalogs, policies, offices, and written communications intended for the relevant audience;
 2. official employer, court, agency, nonprofit, fellowship, competition, or program webpages;
 3. official application portals or current program documents;
-4. reliable secondary sources only when no authoritative source exists, with the secondary status clearly disclosed.
-
-Social posts, reposted listings, screenshots, newsletters, aggregators, and third-party summaries are leads, not final authority.
+Secondary reporting, social posts, reposted listings, screenshots, newsletters, aggregators, and third-party summaries may identify a lead, but they cannot substantiate published factual copy. If no primary source can be located, label the item as needing primary-source review and avoid presenting its factual details as verified.
 
 ## Required record elements
 
@@ -50,7 +48,7 @@ When sources conflict:
 
 ## Expiration and archival
 
-Expired items should not silently remain represented as open. Mark them expired, move them to an archive, or remove them. Preserve historically useful records only when their status and original cycle are unambiguous.
+Expired items should not silently remain represented as open. Mark them historical and preserve them as searchable planning records with the original cycle and source boundary clearly stated. Remove only true duplicates, malformed imports, unauthorized personal information, or content that has no legitimate editorial purpose.
 
 ## Corrections
 
