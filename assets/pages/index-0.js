@@ -15,7 +15,7 @@
   var sp=document.getElementById('spot');
   if(sp){
     var pick=cur||CAMP[0];var tag=cur?'Active campaign this month':'Next campaign up';
-    sp.style.setProperty('--accent-strong',pick.c);sp.style.setProperty('--accent-ink',pick.i);
+    
     sp.querySelector('.spot__title').textContent=pick.n;
     sp.querySelector('.spot__meta').textContent=pick.d+(cur?' — happening now':' — the season opener');
     sp.querySelector('.spot__tag-txt').textContent=tag;
