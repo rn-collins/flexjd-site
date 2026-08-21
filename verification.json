@@ -4,10 +4,11 @@
   "institutional_status": "independent student-maintained resource; not an official Northeastern publication",
   "opportunity_registry": {
     "total_research_leads": 328,
-    "public_actionable_records": 0,
     "status": "verification-hold",
     "last_corpus_editorial_pass": "2026-07-22",
-    "item_level_currentness_verified": false
+    "item_level_currentness_verified": false,
+    "current_public_tree_actionable_records": 0,
+    "dataset_in_current_public_tree": false
   },
   "collection": {
     "site_contact_form": false,
