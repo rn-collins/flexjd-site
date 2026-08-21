@@ -7046,151 +7046,161 @@
     "record_type": "listing",
     "id": "o9-011",
     "cells": [
-     "National Association of Women Lawyers Scholarships (NAWL)",
+     "Selma Moidel Smith Law Student Writing Competition",
      "National Association of Women Lawyers",
-     "Varies",
-     "Women law students; leadership; public service",
-     "Annual",
+     "$1,000, publication in Women Lawyers Journal, Annual Meeting ticket, and covered hotel stay",
+     "Any student in good standing at an ABA-accredited law school; paper must address a legal issue related to NAWL's mission; no gender or full-time restriction stated",
+     "April 17, 2026 — closed; normally the third Friday in April",
      "<a class=\"apply-link\" href=\"https://www.nawl.org/law-student-opportunities\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "NAWL confirms the 2026 writing-competition deadline passed on April 17, 2026; the opportunity is preserved for the next cycle.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://www.nawl.org/law-student-opportunities","checked_at":"2026-08-20","evidence_note":"Verified the competition name, $1,000 prize and benefits, broad ABA-law-school eligibility, and closed April 17, 2026 deadline; the page does not limit eligibility to women.","next_review_at":"2027-02-01"}
    },
    {
     "record_type": "listing",
     "id": "o9-012",
     "cells": [
-     "AILA (American Immigration Lawyers Association) Scholarships",
-     "AILA Foundation",
-     "Varies",
-     "Law students interested in immigration law; AILA student membership recommended",
-     "Annual — check AILA site",
+     "AILA Diversity, Equity, and Inclusion Law School Scholarships",
+     "American Immigration Lawyers Association",
+     "Ten $750 awards plus mentorship, recognition, and a publication opportunity",
+     "Current law students in good standing, including part-time students; free AILA Law Student membership and membership in a diverse or underrepresented group are required",
+     "Applications marked closed; public page retains stale 2024 cycle language",
      "<a class=\"apply-link\" href=\"https://www.aila.org/diversity-equity-inclusion/aila-diversity-inclusion-law-school-scholarships\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "AILA confirms the program and express part-time eligibility, but its closed page retains old 2024 cycle language and no reliable current deadline.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"source-checked","source_url":"https://www.aila.org/diversity-equity-inclusion/aila-diversity-inclusion-law-school-scholarships","checked_at":"2026-08-20","evidence_note":"Verified ten $750 awards, required free student membership, and express part-time eligibility; the page is closed and cycle language is stale.","next_review_at":"2026-11-02"}
    },
    {
     "record_type": "listing",
     "id": "o9-013",
     "cells": [
-     "AAJ / ATLA Foundation Scholarships",
-     "American Association for Justice Foundation",
-     "Varies",
-     "Law students interested in plaintiff-side / trial practice",
-     "Annual",
-     "<a class=\"apply-link\" href=\"https://www.justice.org/about-aaj/aaj-foundation/scholarships\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "AAJ Law Student Scholarships",
+     "American Association for Justice and award-specific donors or caucuses",
+     "Multiple awards; 2026 examples include $5,000 Hailey and Eidson scholarships and $1,500 Leesfield support",
+     "Award-specific criteria and usually AAJ student membership; Hailey and Eidson expressly include qualifying fourth-year night students, but online-part-time equivalence should be confirmed",
+     "All 2026 scholarship applications closed; next deadlines not posted",
+     "<a class=\"apply-link\" href=\"https://www.justice.org/member-groups/caucuses/law-students\" rel=\"noopener\" target=\"_blank\">Official AAJ law-student hub →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "AAJ's official law-student hub states that all 2026 scholarship applications are closed.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://www.justice.org/member-groups/caucuses/law-students","checked_at":"2026-08-20","evidence_note":"Verified the current scholarship collection, representative amounts, closed 2026 status, and explicit night-program pathways in specific awards.","next_review_at":"2026-12-01"}
    },
    {
     "record_type": "listing",
     "id": "o9-014",
     "cells": [
-     "NACDL Foundation Scholarships",
-     "National Association of Criminal Defense Lawyers Foundation",
-     "Varies",
-     "Law students interested in criminal defense",
-     "Annual",
+     "NACDL Law Student Summer Law Fellowship",
+     "National Association of Criminal Defense Lawyers, supported by the Foundation for Criminal Justice",
+     "$562 per week for up to eight weeks; $4,500 maximum",
+     "Qualifying 1Ls and 2Ls at ABA-accredited schools; part-time/evening students graduating December 2026 or later were eligible in 2026; judicial internships do not qualify",
+     "March 9, 2026 at 11:59 p.m. local time — closed",
      "<a class=\"apply-link\" href=\"https://www.nacdl.org/Landing/LawStudentSummerFellowship\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "NACDL's official fellowship materials confirm the March 9, 2026 deadline has passed.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://www.nacdl.org/Landing/LawStudentSummerFellowship","checked_at":"2026-08-20","evidence_note":"Verified the maximum $4,500 stipend, placement rules, qualifying part-time/evening pathway, and closed March 9, 2026 deadline.","next_review_at":"2026-12-01"}
    },
    {
     "record_type": "listing",
     "id": "o9-015",
     "cells": [
-     "Pat Tillman Foundation Scholar",
+     "Tillman Scholar Program",
      "Pat Tillman Foundation",
-     "$25,000–$60,000 over program",
-     "Military veterans and spouses in graduate programs; service-oriented values; leadership",
-     "Annual — typically January deadline",
-     "<a class=\"apply-link\" href=\"https://pattillmanfoundation.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Variable need-based support; no fixed current range published",
+     "Eligible veterans, active-duty service members, Guard/Reserve members, and current or surviving spouses enrolled full-time as defined by their program; typical FlexJD enrollment may not qualify",
+     "February 1, 2026 — closed; applications normally open December 1",
+     "<a class=\"apply-link\" href=\"https://pattillmanfoundation.org/apply/\" rel=\"noopener\" target=\"_blank\">Official application page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The foundation confirms the 2026 cycle is closed and requires full-time enrollment as defined by the applicant's institution or program.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://pattillmanfoundation.org/apply/","checked_at":"2026-08-20","evidence_note":"Verified closed status, military and spouse categories, full-time enrollment requirement, and allowable uses; removed the unsupported fixed award range.","next_review_at":"2026-12-01"}
    },
    {
     "record_type": "listing",
     "id": "o9-016",
     "cells": [
-     "New York Bar Foundation Scholarships",
-     "New York Bar Foundation / TNYBF",
-     "Varies",
-     "NY law students; various criteria",
-     "Annual",
+     "The New York Bar Foundation Fellowships &amp; Scholarships",
+     "The New York Bar Foundation",
+     "Varies by named award",
+     "Students enrolled in New York law schools; award-specific criteria. Some awards include 4Ls, but part-time eligibility must be checked individually",
+     "Varies by award; verify official application materials",
      "<a class=\"apply-link\" href=\"https://www.tnybf.org/grants-scholarships/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "TNYBF confirms multiple named opportunities but publishes no uniform amount or umbrella deadline.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"source-checked","source_url":"https://www.tnybf.org/grants-scholarships/","checked_at":"2026-08-20","evidence_note":"Verified the active umbrella collection and award-specific eligibility; amounts and deadlines vary, and part-time eligibility is not universal.","next_review_at":"2026-09-15"}
    },
    {
     "record_type": "listing",
     "id": "o9-017",
     "cells": [
-     "California ChangeLawyers Scholarships",
+     "California ChangeLawyers Next Gen Scholars Program",
      "California ChangeLawyers (formerly CA Bar Foundation)",
-     "Varies",
-     "CA law students; social justice focus",
-     "Annual",
-     "<a class=\"apply-link\" href=\"https://changelawyers.org/scholarships/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "$50,000 total: $15,000 annually for three years plus $5,000 for post-graduate bar preparation",
+     "Incoming fall-2026 students in full-time JD programs at accredited California law schools; financial need and intent to practice in California required; part-time students ineligible",
+     "March 26, 2026 at 11:59 p.m. PT — closed",
+     "<a class=\"apply-link\" href=\"https://changelawyers.org/next-gen-scholars/\" rel=\"noopener\" target=\"_blank\">Official program page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official 2026 FAQ confirms the deadline passed and expressly excludes part-time students.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://changelawyers.org/next-gen-scholars/","checked_at":"2026-08-20","evidence_note":"Verified $50,000 total support, exact deadline, incoming-1L criteria, and explicit full-time-only rule.","next_review_at":"2027-01-15"}
    },
    {
     "record_type": "listing",
     "id": "o9-018",
     "cells": [
-     "Phi Delta Phi International Legal Fraternity Scholarships",
-     "Phi Delta Phi",
-     "Varies",
-     "Phi Delta Phi members; academic excellence",
-     "Annual — check Phi Delta Phi site",
-     "<a class=\"apply-link\" href=\"https://www.phideltaphi.org/page/societyawardsscholar\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Phi Delta Phi Balfour Scholarships and Graduate of the Year Awards",
+     "Phi Delta Phi, The International Legal Honor Society",
+     "Not stated on the current public sponsor page",
+     "Phi Delta Phi members; current award-specific criteria and part-time eligibility are not publicly stated",
+     "No current public deadline; verify with Phi Delta Phi",
+     "<a class=\"apply-link\" href=\"https://phideltaphi.org/membership/member-benefits/\" rel=\"noopener\" target=\"_blank\">Official member-benefits page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The official site confirms the awards and member eligibility but publishes no current amount, application window, or deadline.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"source-checked","source_url":"https://phideltaphi.org/membership/member-benefits/","checked_at":"2026-08-20","evidence_note":"Verified current award names and membership relationship; the previous destination was obsolete and no current cycle details are public.","next_review_at":"2026-11-01"}
    },
    {
     "record_type": "listing",
     "id": "o9-019",
     "cells": [
-     "South Asian Bar Association Scholarships",
-     "SABA North America",
-     "Varies",
-     "South Asian law students",
-     "Annual — check SABA site",
-     "<a class=\"apply-link\" href=\"https://www.sabanorthamerica.com/page/awardsgrants\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "2026 SABANY Innovation Scholarship by the Lingam Foundation",
+     "South Asian Bar Association of New York Fund and the Lingam Foundation",
+     "Up to $25,000 plus mentorship and network support",
+     "Pre-law undergraduates and law students demonstrating achievement, entrepreneurship or innovation, and commitment to transforming the legal industry and access to justice; no public full-time restriction",
+     "July 31, 2026 at 9:00 p.m. ET — closed",
+     "<a class=\"apply-link\" href=\"https://www.sabany.org/innovation-scholarship\" rel=\"noopener\" target=\"_blank\">Official SABANY scholarship page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The former national umbrella claim was unsupported; this official chapter opportunity closed July 31, 2026 and is preserved for next-cycle planning.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://www.sabany.org/innovation-scholarship","checked_at":"2026-08-20","evidence_note":"Verified the specific SABANY/Lingam award, maximum amount, criteria, and closed deadline; no current national SABA North America law-student scholarship was substantiated.","next_review_at":"2027-06-15"}
    },
    {
     "record_type": "listing",
     "id": "o9-020",
     "cells": [
-     "Federal Bar Association Scholarships (multiple sections)",
-     "Federal Bar Association",
-     "Varies by section",
-     "Law students interested in federal practice; Veterans, Immigration, Indian Law sections all offer separate scholarships",
-     "Annual per section",
-     "<a class=\"apply-link\" href=\"https://www.foundationofthefba.org/scholarships/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Federal Bar Association Section and Chapter Scholarships",
+     "Federal Bar Association sections and chapters",
+     "Varies; current examples include $1,500 awards or travel support",
+     "Award-specific law-student criteria; part-time status generally is not addressed publicly",
+     "Varies; several 2026 programs closed, while some section pages list opportunities without public deadlines",
+     "<a class=\"apply-link\" href=\"https://www.fedbar.org/health-law-section/\" rel=\"noopener\" target=\"_blank\">Official FBA section example →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official FBA section pages confirm multiple independent opportunities with mixed statuses; the former Veterans and Immigration claims were not substantiated by the cited page.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"source-checked","source_url":"https://www.fedbar.org/health-law-section/","checked_at":"2026-08-20","evidence_note":"Verified section-specific opportunities and representative $1,500 support; every section has separate criteria and timing, so no umbrella current-cycle claim is made.","next_review_at":"2026-09-01"}
    },
    {
     "record_type": "group",
@@ -7208,16 +7218,17 @@
     "record_type": "listing",
     "id": "o9-021",
     "cells": [
-     "Hispanic Scholarship Fund — Graduate",
+     "2026 HSF Scholar Program",
      "Hispanic Scholarship Fund",
      "$500–$5,000",
-     "Hispanic/Latino graduate students (including law); US citizen/PR/DACA",
-     "Annual — typically February deadline",
+     "Hispanic heritage; U.S. citizen, permanent legal resident, or DACA; graduate GPA of at least 2.5; FAFSA; planned full-time 2026–27 graduate enrollment — typical FlexJD enrollment is ineligible",
+     "February 15, 2026 — closed",
      "<a class=\"apply-link\" href=\"https://www.hsf.net/scholarship/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "HSF confirms the 2026 cycle is closed and requires planned full-time enrollment, excluding typical part-time FlexJD enrollment.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://www.hsf.net/scholarship/","checked_at":"2026-08-20","evidence_note":"Verified conditional $500–$5,000 funding, citizenship or DACA categories, GPA/FAFSA rules, full-time requirement, and closed February 15, 2026 deadline.","next_review_at":"2027-01-05"}
    },
    {
     "record_type": "listing",
@@ -7225,59 +7236,63 @@
     "cells": [
      "ABA Section of Taxation — Christine A. Brunswick Public Service Fellowship",
      "ABA Section of Taxation",
-     "Paid fellowship (see ABA Tax site for current amount)",
-     "Recent law graduates committed to working in tax in the public interest",
-     "Annual — check ABA Tax site",
-     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/taxation/awards/psfellowship/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Two-year grant to the host equal to the fellow's salary and benefits; no fixed public dollar amount",
+     "Recent law graduates or judicial clerks with a nonprofit or government sponsor proposing public-interest tax work; not an enrolled-student scholarship",
+     "November 6, 2026 for the 2027–2029 cycle — open",
+     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/taxation/about/awards-initiatives/public-service-fellowship/guidelines/\" rel=\"noopener\" target=\"_blank\">Official fellowship guidelines →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "upcoming",
+    "status_reason": "The ABA Tax Section confirms the 2027–2029 application is open and due November 6, 2026.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-current","source_url":"https://www.americanbar.org/groups/taxation/about/awards-initiatives/public-service-fellowship/guidelines/","checked_at":"2026-08-20","evidence_note":"Verified open status, exact deadline, two-year salary-and-benefits grant structure, and post-graduate sponsor requirement.","next_review_at":"2026-11-07"}
    },
    {
     "record_type": "listing",
     "id": "o9-023",
     "cells": [
-     "Federalist Society — Olin/Searle/Smith Fellowship",
+     "Federalist Society Olin-Smith-Darling Fellows in Law",
      "Federalist Society",
-     "$50,000–$200,000 (varies by track)",
-     "Law graduates and academics committed to originalism/textualism/rule of law; faculty positions or research focus",
-     "Annual — check Federalist Society site",
+     "$70,000 stipend plus health benefits for the 2026–27 cycle",
+     "JD holders pursuing legal academia with exceptional academics and commitment to rule of law and intellectual diversity; full-time for one to two years with no other employment",
+     "March 15, 2026 — closed",
      "<a class=\"apply-link\" href=\"https://fedsoc.org/opportunities/olin-searle-smith-darling-fellows-in-law-full-time\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official 2026–27 fellowship deadline passed on March 15, 2026; this is a post-JD full-time academic fellowship, not a student scholarship.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://fedsoc.org/opportunities/olin-smith-darling-fellows-in-law-full-time","checked_at":"2026-08-20","evidence_note":"Verified correct name, $70,000 stipend, full-time/no-other-employment rule, post-JD academic focus, and closed deadline.","next_review_at":"2027-01-15"}
    },
    {
     "record_type": "listing",
     "id": "o9-024",
     "cells": [
-     "Illinois Bar Foundation Scholarships",
+     "Illinois Bar Foundation Post-Graduate Legal Fellowship",
      "Illinois Bar Foundation",
-     "Varies",
-     "Illinois law students",
-     "Annual",
-     "<a class=\"apply-link\" href=\"https://www.illinoisbarfoundation.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Salary and benefits through participating law school and legal-aid clinic; current amount not public",
+     "Recent graduates of participating Illinois law schools working as staff attorneys at their alma mater's legal-aid clinic; not a current-student scholarship",
+     "No current public application or deadline; latest named cohort on the page is historical",
+     "<a class=\"apply-link\" href=\"https://illinoisbarfoundation.org/programs/post-graduate-legal-fellowship/\" rel=\"noopener\" target=\"_blank\">Official IBF program page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The original general scholarship claim was unsupported; the official IBF page instead confirms a post-graduate fellowship but no current public cycle.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"source-checked","source_url":"https://illinoisbarfoundation.org/programs/post-graduate-legal-fellowship/","checked_at":"2026-08-20","evidence_note":"Verified the actual IBF law-student-adjacent program and preserved it with a warning that no current application, deadline, or recent cohort is published.","next_review_at":"2027-01-15"}
    },
    {
     "record_type": "listing",
     "id": "o9-025",
     "cells": [
-     "Iranian American Bar Association Scholarship",
-     "Iranian American Bar Association (IABA)",
-     "Varies",
-     "Iranian American law students",
-     "Annual — check IABA site",
-     "<a class=\"apply-link\" href=\"https://www.iaba.us/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "2026 IABA Scholarships",
+     "Iranian American Bar Association, IABA Foundation, and IABA NorCal",
+     "$5,000 Judge Iravani-Sani award; two $6,000 NorCal awards; Foundation award amount not public",
+     "Students enrolled or accepted at ABA-accredited law schools; full-time, part-time, evening, and LLM students expressly eligible; award-specific community or public-interest criteria apply",
+     "July 31, 2026 at 11:59 p.m. ET — closed",
+     "<a class=\"apply-link\" href=\"https://iaba.us/iaba-scholarships-for-2026/\" rel=\"noopener\" target=\"_blank\">Official 2026 IABA scholarships →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "IABA's official 2026 page marks applications closed; the explicit part-time and evening eligibility makes this important for the next FlexJD cycle.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {"state":"primary-closed","source_url":"https://iaba.us/iaba-scholarships-for-2026/","checked_at":"2026-08-20","evidence_note":"Verified the 2026 award collection, published amounts, express part-time/evening eligibility, exact deadline, and closed status.","next_review_at":"2027-05-15"}
    }
   ],
   "row_count": 25
