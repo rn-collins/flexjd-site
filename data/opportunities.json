@@ -6834,8 +6834,15 @@
      "<a class=\"apply-link\" href=\"https://pdsoros.org/application-process/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "upcoming",
-    "status_reason": "Corpus text contains a future-cycle date or estimate; availability is not externally verified.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official sponsor page confirms the 2027 application is open and due October 29, 2026 at 2:00 p.m. ET.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://pdsoros.org/application-process/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current 2027 application availability, deadline, stated eligibility framework, and up-to-$90,000 support on the official sponsor page.",
+     "next_review_at": "2026-09-29"
+    }
    },
    {
     "record_type": "listing",
@@ -6844,13 +6851,20 @@
      "AccessLex Scholarship Databank (aggregator)",
      "AccessLex Institute",
      "Varies by scholarship",
-     "All law students — search by eligibility, amount, and topic",
-     "Varies",
-     "<a class=\"apply-link\" href=\"https://www.accesslex.org/databank\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Incoming, returning, aspiring, and bar-study categories; filter each listing by its own requirements",
+     "Varies by sponsoring organization; verify every deadline on the sponsor's official page",
+     "<a class=\"apply-link\" href=\"https://www.accesslex.org/databank\" rel=\"noopener\" target=\"_blank\">Search the official AccessLex Databank →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "AccessLex's official databank is active, but each underlying scholarship requires separate sponsor verification.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.accesslex.org/databank",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified that the official AccessLex database is active and searchable; AccessLex warns users to confirm dates with each scholarship provider.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
@@ -6859,13 +6873,20 @@
      "ABA Legal Opportunity Scholarship",
      "American Bar Association",
      "$15,000 over 3 years",
-     "Entering 1Ls from racially/ethnically diverse backgrounds; ABA-accredited school",
-     "Annual — check ABA site (typically spring)",
-     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/diversity/diversity_pipeline/projects_initiatives/legal-opportunity-scholarship/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Students entering their first year in fall 2027 with at least a 2.5 undergraduate GPA and demonstrated commitment to advancing diversity, equity, and inclusion; part-time entrants are eligible",
+     "January 15–March 15, 2027; closes 11:59 p.m. CT",
+     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/diversity/diversity_pipeline/projects_initiatives/legal_opportunity_scholarship/frequently-asked-questions-losf/\" rel=\"noopener\" target=\"_blank\">Official 2027 ABA details →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "upcoming",
+    "status_reason": "The ABA publishes a January 15–March 15, 2027 application window and revised eligibility based on demonstrated DEI commitment rather than racial or ethnic identity.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.americanbar.org/groups/diversity/diversity_pipeline/projects_initiatives/legal_opportunity_scholarship/frequently-asked-questions-losf/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the 2027 window, entering-first-year restriction, part-time eligibility, 2.5 GPA minimum, and current DEI-commitment criterion; the ABA separately confirms the $15,000 award.",
+     "next_review_at": "2027-01-15"
+    }
    },
    {
     "record_type": "listing",
@@ -6873,29 +6894,43 @@
     "cells": [
      "Massachusetts Bar Foundation Legal Intern Fellowship",
      "Massachusetts Bar Foundation",
-     "Paid summer stipend (varies by year)",
-     "Students at Massachusetts law schools (including NUSL) placed at legal services orgs",
-     "Annual — typically spring",
-     "<a class=\"apply-link\" href=\"https://www.massbarfoundation.org/legalfellowship\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "$8,000 summer stipend for the 2026 cycle",
+     "Students enrolled at a U.S. law school who secured a volunteer internship with a qualifying Massachusetts nonprofit providing civil legal services to low-income clients; Massachusetts residency preference",
+     "2026 application closed; preserve for the next summer cycle",
+     "<a class=\"apply-link\" href=\"https://www.massbarfoundation.org/lifp\" rel=\"noopener\" target=\"_blank\">Official MBF fellowship page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official MBF page states that the 2026 process is closed; the program is preserved for future-cycle planning.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.massbarfoundation.org/lifp",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the 2026 $8,000 stipend, qualifying-internship requirements, and closed status on the official MBF page.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
     "id": "o9-005",
     "cells": [
-     "Massachusetts Bar Foundation — Gants Judicial Scholarship",
-     "Boston Bar Foundation",
-     "Varies by award",
-     "Law students in Massachusetts; public interest focus",
-     "Annual — check BBF site",
-     "<a class=\"apply-link\" href=\"https://www.massbarfoundation.org/gants-scholarship\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Chief Justice Ralph D. Gants Judicial Scholarship",
+     "Massachusetts Bar Foundation; funded by the Massachusetts Department of Higher Education",
+     "$8,000; prorated awards available for qualifying 8- or 9-week internships",
+     "Student in good standing at an ABA-accredited Massachusetts law school who demonstrates financial need and has secured a qualifying Massachusetts state-court judicial internship",
+     "Submit through the law school's internship office; no public cycle deadline stated",
+     "<a class=\"apply-link\" href=\"https://www.massbarfoundation.org/gants-scholarship\" rel=\"noopener\" target=\"_blank\">Official MBF scholarship page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "Official MBF guidance confirms award, eligibility, and law-school submission pathway, but does not publish a current-cycle deadline.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.massbarfoundation.org/gants-scholarship",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the correct sponsor, $8,000 award, financial-need and judicial-internship criteria, and submission through the student's law school; no cycle deadline is posted.",
+     "next_review_at": "2026-11-01"
+    }
    },
    {
     "record_type": "listing",
@@ -6903,14 +6938,21 @@
     "cells": [
      "Earl Warren Scholars Program (NAACP LDF)",
      "NAACP Legal Defense Fund",
-     "Multi-year support",
-     "Black law students committed to civil rights; strong academic record; community service",
-     "Annual — check NAACP LDF site",
-     "<a class=\"apply-link\" href=\"https://www.naacpldf.org/about-us/scholarship/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "$15,000 per year for three years, subject to continued eligibility ($45,000 total)",
+     "Students entering the first or second year of full-time study at an accredited three-year U.S. law school with demonstrated commitment to racial justice; part-time students are not eligible",
+     "May 1, 2026 — closed",
+     "<a class=\"apply-link\" href=\"https://www.naacpldf.org/earl-warren-scholarship\" rel=\"noopener\" target=\"_blank\">Official LDF scholarship page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official LDF page lists a May 1, 2026 deadline and expressly excludes part-time law students, making this record inapplicable to FlexJD students under the published criteria.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.naacpldf.org/earl-warren-scholarship",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the $45,000 maximum, 2026 deadline, full-time-only rule, accredited three-year-law-school requirement, and racial-justice focus on LDF's official page.",
+     "next_review_at": "2026-11-30"
+    }
    },
    {
     "record_type": "listing",
@@ -6918,59 +6960,87 @@
     "cells": [
      "Point Foundation Scholarship",
      "Point Foundation",
-     "$14,000 average annual award",
-     "LGBTQ+ graduate students (including law); academic achievement; leadership; financial need",
-     "Annual — typically January deadline",
-     "<a class=\"apply-link\" href=\"https://pointfoundation.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Amount not stated on the current public overview",
+     "LGBTQ+ and ally students in bachelor's, graduate, or professional programs at accredited nonprofit U.S. institutions; holistic selection includes merit and financial need",
+     "Flagship application currently closed; next deadline not posted",
+     "<a class=\"apply-link\" href=\"https://pointfoundation.org/scholarships\" rel=\"noopener\" target=\"_blank\">Official Point scholarship page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "Point's official scholarship overview currently marks the Flagship application closed and does not state the earlier $14,000 average-award claim.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://pointfoundation.org/scholarships",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current closed status, eligible program types, institutional requirement, and holistic-selection framing; removed an unsupported award average and deadline estimate.",
+     "next_review_at": "2026-10-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o9-008",
     "cells": [
-     "HNBA VIA Fund Scholarships (formerly HNBF)s",
-     "Hispanic National Bar Foundation",
+     "HNBA/VIA Fund Law Student Scholarships",
+     "HNBA VIA (Vision in Action) Fund",
      "Varies",
-     "Hispanic/Latino law students",
-     "Annual — check HNBF site",
-     "<a class=\"apply-link\" href=\"https://hnba.com/scholarships/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Incoming or current JD/LLM students in good standing at an ABA-accredited U.S. or territorial law school who demonstrate commitment to the HNBA community; active HNBA Law Student Division membership required",
+     "Official detailed page still shows July 18, 2025; check back for the next application dates",
+     "<a class=\"apply-link\" href=\"https://hnba.com/scholarships/general-via-law-student-scholarships/\" rel=\"noopener\" target=\"_blank\">Official HNBA/VIA details →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The official sponsor confirms the program and eligibility, but its detailed page still publishes a 2025 deadline and instructs applicants to check back for future dates.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://hnba.com/scholarships/general-via-law-student-scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current program identity and eligibility; the only detailed deadline shown is historical, so no 2026 cycle is claimed.",
+     "next_review_at": "2027-06-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o9-009",
     "cells": [
-     "NAPABA Law Foundation Scholarships (formerly APABA Educational Fund)",
-     "APABAEF",
-     "Varies",
-     "AAPI law students; academic excellence and community service",
-     "Annual — check APABAEF site",
-     "<a class=\"apply-link\" href=\"https://www.napabalawfoundation.org/scholarships\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "NAPABA Law Foundation Fall Scholarships",
+     "NAPABA Law Foundation",
+     "$2,500–$7,500 depending on award",
+     "Law students considered through one combined application for awards emphasizing academic achievement, financial need, leadership, and commitment to or service of AAPI communities",
+     "September 23, 2026 at 5:00 p.m. ET",
+     "<a class=\"apply-link\" href=\"https://www.napabalawfoundation.org/open-scholarships\" rel=\"noopener\" target=\"_blank\">Official open scholarships →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "upcoming",
+    "status_reason": "The NAPABA Law Foundation confirms that 2026 fall applications are open and due September 23, 2026 at 5:00 p.m. ET.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.napabalawfoundation.org/open-scholarships",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified open status, exact deadline, combined application, named fall awards, amounts, and stated selection considerations on the official foundation page.",
+     "next_review_at": "2026-09-10"
+    }
    },
    {
     "record_type": "listing",
     "id": "o9-010",
     "cells": [
-     "National LGBTQ+ Bar Scholarships",
-     "National LGBT Bar Association Foundation",
-     "Varies",
-     "LGBTQ+ law students",
-     "Annual — check site",
-     "<a class=\"apply-link\" href=\"https://lgbtqbar.org/programs/law-students/law-school-scholarships/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "National LGBTQ+ Bar Law School Scholarships",
+     "National LGBTQ+ Bar Association and Foundation",
+     "Three unrestricted $2,500 scholarships annually",
+     "Accepted or enrolled at least half-time at an ABA-accredited law school; awards designated for an incoming 1L, rising 2L, and rising 3L or 4L in an evening or part-time program",
+     "April 1, 2026 at midnight ET — closed",
+     "<a class=\"apply-link\" href=\"https://lgbtqbar.org/programs/awards/lgbtq-bar-law-school-scholarship/\" rel=\"noopener\" target=\"_blank\">Official scholarship page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official page states the April 1, 2026 deadline has passed; the part-time 3L/4L award makes this valuable for the next FlexJD cycle.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://lgbtqbar.org/programs/awards/lgbtq-bar-law-school-scholarship/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified award count and amount, half-time eligibility, class-year award structure including part-time 3L/4L students, and the closed 2026 deadline.",
+     "next_review_at": "2027-01-15"
+    }
    },
    {
     "record_type": "listing",
