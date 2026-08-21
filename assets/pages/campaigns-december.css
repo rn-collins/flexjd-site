@@ -1,0 +1,19 @@
+.x-campaigns-december-0{background:#0F6E6E}
+.x-campaigns-december-1{background:#3A6EA5}
+.x-campaigns-december-2{background:#0063A6}
+.x-campaigns-december-3{background:#1E4B8F}
+.x-campaigns-december-4{background:#1B7A3D}
+.x-campaigns-december-5{background:#6A1B9A}
+.x-campaigns-december-6{background:#0F7C7C}
+.x-campaigns-december-7{font-weight:600;color:var(--ink);font-size:1rem}
+.x-campaigns-december-8{font-weight:600;color:var(--ink);font-size:1rem}
+.x-campaigns-december-9{font-weight:600;color:var(--ink);font-size:1rem}
+.x-campaigns-december-10{margin-top:16px}
+:root{--accent:#004675;--accent-strong:#0063A6;--accent-deep:#00466F;--accent-wash:#E5F0F8;--accent-ink:#004675}
+
+@media (max-width:480px){
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"]{bottom:0.75rem!important;right:0.75rem!important}
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] button,
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] a{padding:.4rem .75rem!important;font-size:.6rem!important}
+  button[style*="position:fixed"][style*="bottom:24px"][style*="right:24px"]{bottom:12px!important;right:12px!important;padding:7px 12px!important;font-size:11px!important}
+}

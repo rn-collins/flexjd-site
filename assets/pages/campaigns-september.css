@@ -1,0 +1,17 @@
+.x-campaigns-september-0{background:#0F6E6E}
+.x-campaigns-september-1{background:#3A6EA5}
+.x-campaigns-september-2{background:#0063A6}
+.x-campaigns-september-3{background:#1E4B8F}
+.x-campaigns-september-4{background:#1B7A3D}
+.x-campaigns-september-5{background:#6A1B9A}
+.x-campaigns-september-6{background:#0F7C7C}
+.x-campaigns-september-7{margin-top:24px}
+.x-campaigns-september-8{margin-top:16px}
+:root{--accent:#0A4A4A;--accent-strong:#0F6E6E;--accent-deep:#0A4F4F;--accent-wash:#E6F2F2;--accent-ink:#0A4A4A}
+
+@media (max-width:480px){
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"]{bottom:0.75rem!important;right:0.75rem!important}
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] button,
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] a{padding:.4rem .75rem!important;font-size:.6rem!important}
+  button[style*="position:fixed"][style*="bottom:24px"][style*="right:24px"]{bottom:12px!important;right:12px!important;padding:7px 12px!important;font-size:11px!important}
+}

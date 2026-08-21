@@ -1,0 +1,30 @@
+.x-index-0{background:#0F6E6E}
+.x-index-1{background:#3A6EA5}
+.x-index-2{background:#0063A6}
+.x-index-3{background:#1E4B8F}
+.x-index-4{background:#1B7A3D}
+.x-index-5{background:#6A1B9A}
+.x-index-6{background:#0F7C7C}
+.x-index-7{background:#FFF8E7;border-left:4px solid #B8842A;padding:12px 16px;margin-bottom:24px;font-size:13px;color:#5A4000;border-radius:0 4px 4px 0;}
+.x-index-8{--accent:#0A4A4A;--accent-strong:#0F6E6E;--accent-deep:#0A4F4F;--accent-wash:#E6F2F2;--accent-ink:#0A4A4A}
+.x-index-9{background:linear-gradient(150deg,#0F6E6E,#0A4F4F)}
+.x-index-10{--accent:#274B72;--accent-strong:#3A6EA5;--accent-deep:#28496E;--accent-wash:#EAF0F7;--accent-ink:#274B72}
+.x-index-11{background:linear-gradient(150deg,#3A6EA5,#28496E)}
+.x-index-12{--accent:#004675;--accent-strong:#0063A6;--accent-deep:#00466F;--accent-wash:#E5F0F8;--accent-ink:#004675}
+.x-index-13{background:linear-gradient(150deg,#0063A6,#00466F)}
+.x-index-14{--accent:#183A6E;--accent-strong:#1E4B8F;--accent-deep:#14335F;--accent-wash:#E8EDF6;--accent-ink:#183A6E}
+.x-index-15{background:linear-gradient(150deg,#1E4B8F,#14335F)}
+.x-index-16{--accent:#12562B;--accent-strong:#1B7A3D;--accent-deep:#12562B;--accent-wash:#E8F3EC;--accent-ink:#12562B}
+.x-index-17{background:linear-gradient(150deg,#1B7A3D,#12562B)}
+.x-index-18{--accent:#551579;--accent-strong:#6A1B9A;--accent-deep:#4A1269;--accent-wash:#F1E9F6;--accent-ink:#551579}
+.x-index-19{background:linear-gradient(150deg,#6A1B9A,#4A1269)}
+.x-index-20{--accent:#0A5252;--accent-strong:#0F7C7C;--accent-deep:#0A5757;--accent-wash:#E6F2F2;--accent-ink:#0A5252}
+.x-index-21{background:linear-gradient(150deg,#0F7C7C,#0A5757)}
+.x-index-22{margin-top:16px}
+
+@media (max-width:480px){
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"]{bottom:0.75rem!important;right:0.75rem!important}
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] button,
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] a{padding:.4rem .75rem!important;font-size:.6rem!important}
+  button[style*="position:fixed"][style*="bottom:24px"][style*="right:24px"]{bottom:12px!important;right:12px!important;padding:7px 12px!important;font-size:11px!important}
+}

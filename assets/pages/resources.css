@@ -1,0 +1,29 @@
+.x-resources-0{background:#0F6E6E}
+.x-resources-1{background:#3A6EA5}
+.x-resources-2{background:#0063A6}
+.x-resources-3{background:#1E4B8F}
+.x-resources-4{background:#1B7A3D}
+.x-resources-5{background:#6A1B9A}
+.x-resources-6{background:#0F7C7C}
+.x-resources-7{margin-top:28px}
+.x-resources-8{margin:0 0 24px}
+.x-resources-9{margin-top:22px}
+.x-resources-10{margin-top:22px}
+.x-resources-11{margin-top:22px}
+.x-resources-12{margin-top:22px}
+.x-resources-13{margin-top:22px}
+.x-resources-14{margin-top:22px}
+.x-resources-15{margin-top:18px}
+.x-resources-16{margin-top:16px}
+:root{--accent:#13564A;--accent-strong:#1F6E5E;--accent-deep:#134539;--accent-wash:#E7F2EF;--accent-ink:#13564A}
+
+@media (max-width:480px){
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"]{bottom:0.75rem!important;right:0.75rem!important}
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] button,
+  div[style*="position:fixed"][style*="bottom:1.5rem"][style*="right:1.5rem"] a{padding:.4rem .75rem!important;font-size:.6rem!important}
+  button[style*="position:fixed"][style*="bottom:24px"][style*="right:24px"]{bottom:12px!important;right:12px!important;padding:7px 12px!important;font-size:11px!important}
+}
+
+
+details.faq.res-hidden,tr.res-hidden,.frame.res-hidden{display:none!important}
+.csec.res-empty{display:none}

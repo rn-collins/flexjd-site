@@ -1,10 +1,20 @@
 {
-  "build": "RR-019 FlexJD Resource Hub",
-  "verified_on": "2026-08-15",
+  "build": "FlexJD Resource Hub safe-release tranche",
+  "verified_on": "2026-08-20",
   "institutional_status": "independent student-maintained resource; not an official Northeastern publication",
-  "opportunity_records": 328,
-  "opportunity_source_reviewed_on": "2026-07-22",
-  "opportunity_currentness": "research leads; current status must be confirmed at the original source",
-  "collection": {"site_contact_form": false, "custom_tracking_endpoint": false, "browser_utm_storage": false, "vercel_web_analytics": true, "vercel_speed_insights": true},
+  "opportunity_registry": {
+    "total_research_leads": 328,
+    "public_actionable_records": 0,
+    "status": "verification-hold",
+    "last_corpus_editorial_pass": "2026-07-22",
+    "item_level_currentness_verified": false
+  },
+  "collection": {
+    "site_contact_form": false,
+    "custom_tracking_endpoint": false,
+    "browser_utm_storage": false,
+    "vercel_web_analytics": true,
+    "vercel_speed_insights": true
+  },
   "corrections": "mailto:collins.ra@northeastern.edu?subject=FlexJD%20Resource%20Hub%20correction"
 }
