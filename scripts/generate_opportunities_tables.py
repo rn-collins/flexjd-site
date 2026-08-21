@@ -7,9 +7,10 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 HTML_PATH=ROOT/'opportunities.html'; JSON_PATH=ROOT/'data'/'opportunities.json'
 TYPES={'listing','group','placeholder'}; STATUSES={'historical','upcoming','rolling','needs-review'}
+VERIFICATION_STATES={'source-checked','primary-current','primary-historical','primary-closed'}
 
 def validate(sections):
- ids=set(); listings=other=0
+ ids=set(); listings=other=source_checked=0
  for section in sections:
   width=len(section['headers']); count=0
   for pos,r in enumerate(section['rows'],1):
@@ -25,10 +26,23 @@ def validate(sections):
     try: date.fromisoformat(r.get('corpus_reviewed_at',''))
     except ValueError: raise SystemExit(f'{rid}: invalid corpus_reviewed_at')
     if r.get('verified_at') not in {None,''}: raise SystemExit(f'{rid}: verified_at is unsupported until an external-verification schema is implemented')
+    verification=r.get('verification')
+    if verification is not None:
+     source_checked+=1
+     if not isinstance(verification,dict) or verification.get('state') not in VERIFICATION_STATES: raise SystemExit(f'{rid}: invalid primary-source verification state')
+     source_url=verification.get('source_url','')
+     if not isinstance(source_url,str) or not source_url.startswith('https://'): raise SystemExit(f'{rid}: verification source_url must be HTTPS')
+     try: date.fromisoformat(verification.get('checked_at',''))
+     except ValueError: raise SystemExit(f'{rid}: invalid verification checked_at')
+     if not verification.get('evidence_note','').strip(): raise SystemExit(f'{rid}: verification requires a scoped evidence_note')
+     if verification.get('next_review_at'):
+      try: date.fromisoformat(verification['next_review_at'])
+      except ValueError: raise SystemExit(f'{rid}: invalid verification next_review_at')
     if 'href="http' not in ' '.join(str(cell) for cell in cells): raise SystemExit(f'{rid}: missing sponsor/originating-source destination')
    else: other+=1
   if count!=int(section['declared_count']) or count!=section.get('row_count'): raise SystemExit(f"{section['id']}: listing count mismatch")
  if (listings,other)!=(328,44): raise SystemExit(f'expected 328 listings + 44 non-listings, got {listings} + {other}')
+ return listings,other,source_checked
 
 def esc(v,quote=False): return html.escape(str(v),quote=quote)
 def build_table(section):
@@ -37,7 +51,8 @@ def build_table(section):
   cells=r['cells']
   if r['record_type']!='listing': rows.append(f'<tr class="opportunity-group" data-listing="false" data-record-id="{esc(r["id"],True)}" data-record-type="{r["record_type"]}"><th scope="rowgroup" colspan="{len(cells)}">{cells[0]}</th></tr>')
   else:
-   attrs=f'data-listing="true" data-record-id="{esc(r["id"],True)}" data-status="{r["status"]}" data-status-reason="{esc(r["status_reason"],True)}" data-corpus-reviewed="{r["corpus_reviewed_at"]}"'
+   verification=r.get('verification') or {}
+   attrs=f'data-listing="true" data-record-id="{esc(r["id"],True)}" data-status="{r["status"]}" data-status-reason="{esc(r["status_reason"],True)}" data-corpus-reviewed="{r["corpus_reviewed_at"]}" data-verification="{verification.get("state","unverified")}"'
    rows.append(f'<tr {attrs}>'+''.join(f'<td>{cell}</td>' for cell in cells)+'</tr>')
  return f'<table class="data"><thead><tr>{heads}</tr></thead><tbody>{"".join(rows)}</tbody></table>'
 
@@ -50,10 +65,10 @@ def render(source,sections):
 
 def main():
  parser=argparse.ArgumentParser(); parser.add_argument('--check',action='store_true'); args=parser.parse_args()
- sections=json.loads(JSON_PATH.read_text(encoding='utf-8')); validate(sections)
+ sections=json.loads(JSON_PATH.read_text(encoding='utf-8')); listings,other,source_checked=validate(sections)
  current=HTML_PATH.read_text(encoding='utf-8'); generated=render(current,sections)
  if args.check and current!=generated:
   print('opportunities.html is not synchronized with data/opportunities.json',file=sys.stderr); return 1
  if not args.check and current!=generated: HTML_PATH.write_text(generated,encoding='utf-8')
- print('Validated 10 tables: 328 unverified listings and 44 preserved group/placeholder rows.'); return 0
+ print(f'Validated 10 tables: {listings} listings, {other} preserved group/placeholder rows, {source_checked} records with dated primary-source evidence.'); return 0
 if __name__=='__main__': raise SystemExit(main())

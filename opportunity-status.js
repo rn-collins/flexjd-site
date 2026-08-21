@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded',function(){
   var sections=[].slice.call(document.querySelectorAll('main section.csec[id^="o"]'));
   var category='all', status='all';
   var labels={historical:'Historical record',upcoming:'Future date in record · unverified',rolling:'Rolling language · unverified','needs-review':'Needs primary-source review'};
+  var verificationLabels={'source-checked':'Official destination checked','primary-current':'Current terms source-checked','primary-historical':'Historical terms source-checked','primary-closed':'Closed cycle source-checked'};
 
   rows.forEach(function(row){
     var cell=row.querySelector('td'), value=row.getAttribute('data-status');
@@ -15,9 +16,17 @@ document.addEventListener('DOMContentLoaded',function(){
     badge.textContent=labels[value];
     badge.title=row.getAttribute('data-status-reason')||'';
     cell.prepend(badge);
+    var verification=row.getAttribute('data-verification');
+    if(verificationLabels[verification]){
+      var verifiedBadge=document.createElement('span');
+      verifiedBadge.className='record-status record-status--source-checked';
+      verifiedBadge.textContent=verificationLabels[verification];
+      cell.prepend(verifiedBadge);
+    }
     row.querySelectorAll('a.apply-link').forEach(function(link){
-      link.textContent=value==='historical'?'Official archive/source →':'Check official source →';
-      link.setAttribute('aria-label',(value==='historical'?'Open official archive or source for ':'Check current status with official source for ')+(cell.textContent||'this record').replace(labels[value],'').trim());
+      var sourceChecked=Boolean(verificationLabels[verification]);
+      link.textContent=sourceChecked?(verification==='primary-current'?'Open checked primary source →':'Open checked historical source →'):(value==='historical'?'Official archive/source →':'Check official source →');
+      link.setAttribute('aria-label',((sourceChecked?'Open checked primary source for ':(value==='historical'?'Open official archive or source for ':'Check current status with official source for '))+(cell.textContent||'this record').replace(labels[value],'').replace(verificationLabels[verification]||'','').trim()));
     });
   });
 
@@ -51,7 +60,10 @@ document.addEventListener('DOMContentLoaded',function(){
       section.classList.toggle('opp-empty-cat',!section.querySelector('tr[data-listing="true"]:not(.opp-hidden)'));
     });
     if(clear) clear.hidden=!query;
-    if(message) message.textContent=visible+' of '+rows.length+' records shown. Status filters describe corpus triage, not verified availability.';
+    if(message){
+      var checked=rows.filter(function(row){return !row.classList.contains('opp-hidden')&&verificationLabels[row.getAttribute('data-verification')];}).length;
+      message.textContent=visible+' of '+rows.length+' records shown; '+checked+' shown records have a dated primary-source check. Status and source-check badges describe different things.';
+    }
   }
   document.querySelectorAll('[data-cat]').forEach(function(chip){chip.addEventListener('click',function(){category=chip.getAttribute('data-cat');setChips('[data-cat]','data-cat',category);applyFilters();});});
   document.querySelectorAll('[data-opp-status]').forEach(function(chip){chip.addEventListener('click',function(){status=chip.getAttribute('data-opp-status');setChips('[data-opp-status]','data-opp-status',status);applyFilters();});});
