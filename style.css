@@ -490,3 +490,14 @@ table.data td a.apply-link:hover{background:var(--accent-strong);color:#fff}
 .oppfilters{max-width:var(--wrap);margin:0 auto;padding:0 24px 22px;display:flex;flex-wrap:wrap;gap:8px}
 .oppfilters__chip{font-family:var(--sans);font-size:.86rem;font-weight:600;padding:11px 16px;border-radius:var(--r-pill);border:1.5px solid var(--line-2);background:var(--paper);color:var(--tx-soft);cursor:pointer}
 .oppfilters__chip.is-active{background:var(--accent-strong);border-color:var(--accent-strong);color:#fff}
+.spot--september{--accent-strong:#0F6E6E;--accent-ink:#0A4A4A}
+.spot--november{--accent-strong:#3A6EA5;--accent-ink:#274B72}
+.spot--december{--accent-strong:#0063A6;--accent-ink:#004675}
+.spot--january{--accent-strong:#1E4B8F;--accent-ink:#183A6E}
+.spot--february{--accent-strong:#1B7A3D;--accent-ink:#12562B}
+.spot--march{--accent-strong:#6A1B9A;--accent-ink:#551579}
+.spot--april{--accent-strong:#0F7C7C;--accent-ink:#0A5252}
+details.faq.res-hidden,tr.res-hidden,.frame.res-hidden{display:none!important}
+.csec.res-empty{display:none}
+details.faq.gl-hidden{display:none!important}
+.csec.gl-empty{display:none}
