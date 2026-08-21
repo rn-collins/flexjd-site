@@ -1,113 +1,57 @@
 #!/usr/bin/env python3
-"""
-Regenerates the 10 <table class="data"> blocks inside opportunities.html from
-data/opportunities.json, the JSON source of truth for all listings.
-
-Why this exists:
-  opportunities.html used to be hand-edited HTML plus one-off _patch_*.py
-  scripts for every batch of additions/removals. That made it easy for a
-  table's declared "· NN listings" count to drift out of sync with its
-  actual row count (this happened twice — see changelog). This script makes
-  data/opportunities.json the single source of truth: edit the JSON, run
-  this script, and every table (and its listing count) regenerates
-  consistently.
-
-Usage:
-  1. Edit data/opportunities.json (add/remove/edit rows in the relevant
-     section's "rows" array — each row is a list of 10 cell strings matching
-     that section's "headers").
-  2. Run:  python3 scripts/generate_opportunities_tables.py
-  3. The script rewrites the <table class="data">...</table> blocks in
-     opportunities.html in place, and updates each section's
-     "· NN listings" count and "row_count"/"declared_count" in the JSON to
-     match the actual row count — so the two can never silently drift again.
-  4. Diff opportunities.html to confirm only the intended rows changed, then
-     commit/push both files as usual.
-
-This script does NOT touch anything outside the <table class="data"> blocks
-(nav, search JS, page chrome, other sections) — it is a narrow, targeted
-regenerator, not a full page templating system.
-"""
-import json
-import re
+"""Deterministically render opportunity tables from the preserved registry."""
+from __future__ import annotations
+import argparse, html, json, re, sys
+from datetime import date
 from pathlib import Path
+ROOT=Path(__file__).resolve().parent.parent
+HTML_PATH=ROOT/'opportunities.html'; JSON_PATH=ROOT/'data'/'opportunities.json'
+TYPES={'listing','group','placeholder'}; STATUSES={'historical','upcoming','rolling','needs-review'}
 
-ROOT = Path(__file__).resolve().parent.parent
-HTML_PATH = ROOT / "opportunities.html"
-JSON_PATH = ROOT / "data" / "opportunities.json"
+def validate(sections):
+ ids=set(); listings=other=0
+ for section in sections:
+  width=len(section['headers']); count=0
+  for pos,r in enumerate(section['rows'],1):
+   kind=r.get('record_type'); rid=r.get('id',''); cells=r.get('cells')
+   if kind not in TYPES: raise SystemExit(f"{section['id']} row {pos}: invalid record_type")
+   if not rid or rid in ids: raise SystemExit(f"{section['id']} row {pos}: missing/duplicate id {rid!r}")
+   ids.add(rid)
+   if not isinstance(cells,list) or len(cells)!=width: raise SystemExit(f'{rid}: expected {width} cells')
+   if kind=='listing':
+    listings+=1; count+=1
+    if r.get('status') not in STATUSES: raise SystemExit(f'{rid}: invalid status')
+    if not r.get('status_reason','').strip(): raise SystemExit(f'{rid}: missing status_reason')
+    try: date.fromisoformat(r.get('corpus_reviewed_at',''))
+    except ValueError: raise SystemExit(f'{rid}: invalid corpus_reviewed_at')
+   else: other+=1
+  if count!=int(section['declared_count']) or count!=section.get('row_count'): raise SystemExit(f"{section['id']}: listing count mismatch")
+ if (listings,other)!=(328,44): raise SystemExit(f'expected 328 listings + 44 non-listings, got {listings} + {other}')
 
-
-def validate_section(section):
-    width = len(section['headers'])
-    bad = [i + 1 for i, row in enumerate(section['rows']) if len(row) != width]
-    if bad:
-        raise SystemExit(f"{section['id']}: rows with wrong width {bad}; expected {width}")
-
-
+def esc(v,quote=False): return html.escape(str(v),quote=quote)
 def build_table(section):
-    validate_section(section)
-    headers_html = "".join(f'<th scope="col">{h}</th>' for h in section["headers"])
-    rows_html = "".join(
-        (f'<tr class="opportunity-group" data-listing="false"><th scope="rowgroup" colspan="{len(row)}">{row[0]}</th></tr>'
-         if is_group_row(row) else
-         '<tr data-listing="true" data-last-verified="2026-07-22" data-status="needs-review">' + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>")
-        for row in section["rows"]
-    )
-    return f'<table class="data"><thead><tr>{headers_html}</tr></thead><tbody>{rows_html}</tbody></table>'
+ heads=''.join(f'<th scope="col">{h}</th>' for h in section['headers']); rows=[]
+ for r in section['rows']:
+  cells=r['cells']
+  if r['record_type']!='listing': rows.append(f'<tr class="opportunity-group" data-listing="false" data-record-id="{esc(r["id"],True)}" data-record-type="{r["record_type"]}"><th scope="rowgroup" colspan="{len(cells)}">{cells[0]}</th></tr>')
+  else:
+   attrs=f'data-listing="true" data-record-id="{esc(r["id"],True)}" data-status="{r["status"]}" data-status-reason="{esc(r["status_reason"],True)}" data-corpus-reviewed="{r["corpus_reviewed_at"]}"'
+   rows.append(f'<tr {attrs}>'+''.join(f'<td>{cell}</td>' for cell in cells)+'</tr>')
+ return f'<table class="data"><thead><tr>{heads}</tr></thead><tbody>{"".join(rows)}</tbody></table>'
 
+def render(source,sections):
+ pattern=re.compile(r'<table class="data">.*?</table>',re.DOTALL); matches=list(pattern.finditer(source))
+ if len(matches)!=len(sections): raise SystemExit(f'found {len(matches)} tables, expected {len(sections)}')
+ out=source
+ for match,section in zip(reversed(matches),reversed(sections)): out=out[:match.start()]+build_table(section)+out[match.end():]
+ return out
 
 def main():
-    html = HTML_PATH.read_text(encoding="utf-8")
-    sections = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-
-    table_pattern = re.compile(r'<table class="data">.*?</table>', re.DOTALL)
-    matches = list(table_pattern.finditer(html))
-    if len(matches) != len(sections):
-        raise SystemExit(
-            f"Mismatch: found {len(matches)} <table class=\"data\"> blocks in "
-            f"opportunities.html but {len(sections)} sections in the JSON. "
-            "Did a section get added/removed by hand? Stopping without writing "
-            "anything so nothing gets silently corrupted."
-        )
-
-    # Rebuild HTML back-to-front so earlier match offsets stay valid.
-    new_html = html
-    for m, section in zip(reversed(matches), reversed(sections)):
-        new_table = build_table(section)
-        new_html = new_html[: m.start()] + new_table + new_html[m.end() :]
-
-    # Update each section's declared "· NN listings" count to match its real
-    # row count, and keep the JSON's own bookkeeping fields honest too.
-    for section in sections:
-        actual = sum(not is_group_row(row) for row in section["rows"])
-        section["row_count"] = actual
-        section["declared_count"] = str(actual)
-        old_count_pattern = re.compile(
-            r'(<div class="csec__num">'
-            + re.escape(section["num"])
-            + r'</div><h2 class="csec__title">.*?·\s*)\d+(\s*listings</span></h2>)',
-            re.DOTALL,
-        )
-        new_html, n = old_count_pattern.subn(rf"\g<1>{actual}\g<2>", new_html, count=1)
-        if n != 1:
-            raise SystemExit(
-                f"Could not find/update the listing-count header for section "
-                f"{section['id']} (num {section['num']}) — stopping without "
-                "writing anything."
-            )
-
-    HTML_PATH.write_text(new_html, encoding="utf-8")
-    JSON_PATH.write_text(
-        json.dumps(sections, indent=1, ensure_ascii=False), encoding="utf-8"
-    )
-    total = sum(s["row_count"] for s in sections)
-    print(f"Regenerated {len(sections)} tables, {total} total listings.")
-
-
-def is_group_row(row):
-    """A visual table heading is not an opportunity record."""
-    return bool(row and row[0].strip()) and not any(cell.strip() for cell in row[1:])
-
-
-if __name__ == "__main__":
-    main()
+ parser=argparse.ArgumentParser(); parser.add_argument('--check',action='store_true'); args=parser.parse_args()
+ sections=json.loads(JSON_PATH.read_text(encoding='utf-8')); validate(sections)
+ current=HTML_PATH.read_text(encoding='utf-8'); generated=render(current,sections)
+ if args.check and current!=generated:
+  print('opportunities.html is not synchronized with data/opportunities.json',file=sys.stderr); return 1
+ if not args.check and current!=generated: HTML_PATH.write_text(generated,encoding='utf-8')
+ print('Validated 10 tables: 328 listings and 44 preserved group/placeholder rows.'); return 0
+if __name__=='__main__': raise SystemExit(main())

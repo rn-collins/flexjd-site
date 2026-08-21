@@ -4,12 +4,18 @@ on:
   pull_request:
     paths:
       - "opportunities.html"
+      - "data/opportunities.json"
+      - "opportunity-status.js"
+      - "scripts/generate_opportunities_tables.py"
       - "scripts/check_stale_opportunities.py"
       - ".github/workflows/opportunity-freshness.yml"
   push:
     branches: [main]
     paths:
       - "opportunities.html"
+      - "data/opportunities.json"
+      - "opportunity-status.js"
+      - "scripts/generate_opportunities_tables.py"
       - "scripts/check_stale_opportunities.py"
   schedule:
     - cron: "43 11 * * 1"
@@ -28,6 +34,8 @@ jobs:
           python-version: "3.12"
       - name: Audit deadlines and verification dates
         run: python scripts/check_stale_opportunities.py | tee opportunity-freshness-report.txt
+      - name: Verify deterministic opportunity generation
+        run: python scripts/generate_opportunities_tables.py --check
       - name: Upload review report
         if: always()
         uses: actions/upload-artifact@v4
