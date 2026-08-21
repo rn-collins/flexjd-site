@@ -23,6 +23,15 @@ This register is the controlling source map for institutional copy. A link appea
 - [NUSL staff directory](https://law.northeastern.edu/about/staff-directory/) — current titles, departments, telephone numbers, and official contact records.
 - [NUSL leadership](https://law.northeastern.edu/about/leadership/) — current senior leadership roles.
 - [Admissions contact page](https://law.northeastern.edu/admissions/contact-us/) — current FlexJD admissions telephone and email channel.
+- [NUSL Law Library](https://law.northeastern.edu/library/) — current research-assistance hours, telephone number, email channel, and database/research-guide entry points.
+- [NUSL Law Library co-op resources](https://law.northeastern.edu/library/co-op-resources/) — research help available to students on co-op and current appointment channels.
+
+## Technology and licensing
+
+- [ExamSoft Examplify minimum system requirements](https://support.examsoft.com/hc/en-us/articles/11145768448909-Examplify-Minimum-System-Requirements-MSRs) — current vendor compatibility requirements. Northeastern’s institution-specific instructions control where they are more restrictive.
+- [NCBE MPRE](https://www.ncbex.org/exams/mpre) — current registration deadline, administration dates, requirements map, and links to jurisdiction records.
+- [NCBE jurisdiction directory](https://www.ncbex.org/jurisdictions) — jurisdiction-by-jurisdiction admissions agency, MPRE, bar-exam, and score information; verify consequential decisions with the jurisdiction’s own licensing authority.
+- [NCBE NextGen UBE decisions by jurisdiction](https://www.ncbex.org/exams/nextgen/nextgen-ube-scores-score-portability/nextgen-ube-decisions-jurisdiction) — adoption dates, passing scores, transfer rules, and jurisdiction-specific requirements during the transition.
 
 ## Verification boundaries
 
