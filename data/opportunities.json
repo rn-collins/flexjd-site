@@ -6068,187 +6068,264 @@
     "id": "o7-001",
     "cells": [
      "ABA Free Legal Answers",
-     "Virtual Legal Clinic",
-     "🌐 Fully remote",
-     "State-specific (answers go to state's platform)",
-     "Flexible — answer on your schedule",
-     "Register as student volunteer via your state's platform; attorney supervision required",
-     "🌐 Free and remote.",
-     "<a class=\"apply-link\" href=\"https://abafreelegalanswers.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Volunteer attorney brief-advice platform",
+     "Remote through participating state platforms",
+     "Attorneys authorized in a participating state; student participation is not guaranteed nationally",
+     "Self-directed; no published minimum",
+     "Register through the applicable state platform",
+     "Active attorney platform; students must confirm a supervised pathway",
+     "<a class=\"apply-link\" href=\"https://www.freelegalanswers.org/about\" rel=\"noopener\" target=\"_blank\">Official program details →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The service is active, but the official national page does not establish direct law-student eligibility.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.freelegalanswers.org/about",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the active remote attorney platform and state-based registration; removed the unsupported blanket student-access claim.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-002",
     "cells": [
-     "ABA Commission on Immigration — Virtual Legal Clinics",
-     "Immigration Virtual Clinic",
-     "🌐 Fully remote",
-     "US-based clients (virtual)",
-     "Clinic schedule (varies by program)",
-     "Register via ABA COI volunteer page",
-     "🌐 Remote immigration clinics: TPS for Haitians/Venezuelans; pro bono for families/children facing deportation.",
-     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/center-pro-bono/resources/volunteer-opportunities/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "ABA Commission on Immigration — Pro Bono Opportunities",
+     "Project-specific intake, observation, screening, hotline, or representation",
+     "Remote and in-person roles vary by project",
+     "Some intake and court-observation roles accept law students; attorney-only roles and language requirements also apply",
+     "Project-specific; a current remote observation role states 15 hours/week",
+     "Use the official opportunity page and Volunteer Interest Survey",
+     "Active opportunity page, but match every student to a specific role",
+     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/public_interest/immigration/pro-bono-at-the-commission-on-immigration/pro-bono-opportunities/\" rel=\"noopener\" target=\"_blank\">Official ABA opportunities →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official page confirms active student-accessible and attorney-only roles with project-specific requirements.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.americanbar.org/groups/public_interest/immigration/pro-bono-at-the-commission-on-immigration/pro-bono-opportunities/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified active student-accessible intake or observation pathways; remote format, hours, and eligibility must be checked per project.",
+     "next_review_at": "2026-09-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-003",
     "cells": [
-     "Pro Bono Net — Remote Legal Connect",
-     "Remote Legal Platform",
-     "🌐 Fully remote",
-     "Varies by state implementation",
-     "Flexible",
-     "Register at <a href=\"https://probono.net\" rel=\"noopener\" target=\"_blank\">probono.net</a>",
-     "🌐 Connects students with clients for virtual consultations and document prep.",
-     "<a class=\"apply-link\" href=\"https://www.probono.net/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Pro Bono Net — National Pro Bono Opportunities Guide",
+     "Searchable opportunity directory, not a direct service program",
+     "Location and remote status vary by host",
+     "Eligibility varies; filter for law-student opportunities and verify with each host",
+     "Host-specific",
+     "Search the guide and apply to the host organization",
+     "Directory is active; each listed opportunity requires separate verification",
+     "<a class=\"apply-link\" href=\"https://www.probono.net/oppsguide/\" rel=\"noopener\" target=\"_blank\">Search the official guide →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official guide is active, but it does not itself place students or guarantee remote client work.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.probono.net/oppsguide/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the active national directory and corrected the invented program name and direct-client claims.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-004",
     "cells": [
-     "The Advocates for Human Rights — Remote Pro Bono",
-     "International Human Rights Nonprofit",
-     "🌐 Fully remote",
-     "None — serves international clients remotely",
-     "Case-by-case",
-     "Register via Advocates website",
-     "🌐 Remote asylum case assistance, trafficking victim support.",
-     "<a class=\"apply-link\" href=\"https://www.theadvocatesforhumanrights.org/take_action\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "The Advocates for Human Rights — Client Representation",
+     "Pro bono immigration representation",
+     "Clients primarily in Minnesota, North Dakota, and South Dakota; remote casework may vary",
+     "Attorneys admitted in good standing in any U.S. state; law students should use the separate internship program",
+     "Case-based; no fixed duration published",
+     "Submit the official interest form or contact the pro bono team",
+     "Attorney representation program; not a direct student-volunteer placement",
+     "<a class=\"apply-link\" href=\"https://www.theadvocatesforhumanrights.org/Volunteer/Represent\" rel=\"noopener\" target=\"_blank\">Official representation program →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official program is active for attorneys; direct FlexJD participation is not established.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.theadvocatesforhumanrights.org/Volunteer/Represent",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified active case representation, attorney eligibility, training, and mentoring; removed unsupported student and fully remote claims.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-005",
     "cells": [
-     "Federal Free Legal Answers (ABA Immigration)",
-     "Immigration Virtual Platform",
-     "🌐 Fully remote",
-     "US-based immigration questions",
-     "Answer at your convenience",
-     "Register via federal.<a href=\"https://freelegalanswers.org\" rel=\"noopener\" target=\"_blank\">freelegalanswers.org</a>",
-     "🌐 Virtual immigration legal help platform.",
-     "<a href=\"https://freelegalanswers.org/\" rel=\"noopener\" target=\"_blank\">freelegalanswers.org/</a>"
+     "ABA Federal Free Legal Answers",
+     "Online immigration and federal-veterans brief advice",
+     "Remote, nationwide federal platform",
+     "Qualified attorneys; veterans answers require licensure in good standing and VA accreditation",
+     "Flexible; no stated minimum",
+     "Register through the attorney platform",
+     "Active attorney-only platform; unsupervised law students are not eligible",
+     "<a class=\"apply-link\" href=\"https://abafederal.freelegalanswers.org/AttorneyFAQ\" rel=\"noopener\" target=\"_blank\">Official attorney FAQ →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official federal platform is active, but it is an attorney volunteer service rather than a student opportunity.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://abafederal.freelegalanswers.org/AttorneyFAQ",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified attorney eligibility and active immigration and veterans service; removed the unsupported law-student-access claim.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-006",
     "cells": [
-     "Veterans Consortium Pro Bono Program",
-     "Veterans Pro Bono",
-     "🌐 Partially remote",
-     "DC-based org; remote representation possible",
-     "Case-by-case; 2–6 months typical",
-     "Register via Veterans Consortium site",
-     "🌐 Represent veterans in benefits appeals.",
-     "<a class=\"apply-link\" href=\"https://www.vetsprobono.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "The Veterans Consortium Pro Bono Program — CAVC Representation",
+     "Represent a screened veteran in a Court of Appeals for Veterans Claims appeal",
+     "Federal practice; remote handling is not guaranteed by the public page",
+     "Attorneys after training; students only through participating clinics or programs with qualified faculty supervision",
+     "Approximately 50–60 hours over about one year",
+     "Contact the consortium for training or participating-program information",
+     "Not a direct individual FlexJD signup",
+     "<a class=\"apply-link\" href=\"https://www.vetsprobono.org/volunteer-info/cavc/\" rel=\"noopener\" target=\"_blank\">Official volunteer information →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The consortium confirms the active representation program, but students must participate through a qualified clinic or program.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.vetsprobono.org/volunteer-info/cavc/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified attorney training, approximate commitment, and restricted student pathway; corrected the earlier short-duration and direct-access claims.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-007",
     "cells": [
-     "Military Pro Bono Project",
-     "Military Legal Aid",
-     "🌐 Fully remote",
-     "None — serves active-duty service members nationwide",
-     "Case-by-case",
-     "Register via Military Pro Bono Project site",
-     "🌐 Represent active-duty service members.",
-     "<a class=\"apply-link\" href=\"https://www.militaryprobono.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "ABA Military Pro Bono Project",
+     "Civil representation for referred servicemembers and attorney-to-attorney consultation",
+     "Nationwide and case-dependent; not guaranteed fully remote",
+     "Licensed civilian attorneys; Operation Stand-By generally requires at least three years of licensure",
+     "Case-dependent",
+     "Register as an attorney and review open cases",
+     "No direct student pathway published",
+     "<a class=\"apply-link\" href=\"https://www.militaryprobono.org/\" rel=\"noopener\" target=\"_blank\">Official military pro bono project →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official project is active for attorneys, not a generally available supervised law-student program.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.militaryprobono.org/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the active referral and consultation programs and corrected student, remote, and eligibility claims.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-008",
     "cells": [
-     "Massachusetts Pro Bono (Volunteer Lawyers Project / BBA)",
-     "State Pro Bono Clearinghouse",
-     "🏙️ Local / some remote",
-     "Massachusetts — Boston area preferred",
-     "Case-by-case",
-     "Register via <a href=\"https://vlpnet.org\" rel=\"noopener\" target=\"_blank\">vlpnet.org</a>",
-     "🏙️ Most directly relevant to NUSL students in Boston.",
-     "<a class=\"apply-link\" href=\"https://www.vlpnet.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Volunteer Lawyers Project — Volunteer &amp; Student Opportunities",
+     "Clinics, internships, and project-specific student roles",
+     "Greater Boston and Massachusetts; some projects or meetings are remote",
+     "Massachusetts attorneys, law graduates, and law students; requirements vary by unit",
+     "Flexible general volunteering; internships have fixed schedules",
+     "Submit the official interest form or follow current internship instructions",
+     "Active student pathways; confirm location and schedule for each unit",
+     "<a class=\"apply-link\" href=\"https://vlpnet.org/join-us/\" rel=\"noopener\" target=\"_blank\">Official VLP opportunities →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "VLP confirms current law-student opportunities, including some remote work, but not blanket hybrid availability.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://vlpnet.org/join-us/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified active volunteer and student pathways; corrected the organization identity and removed unsourced blanket schedule claims.",
+     "next_review_at": "2026-09-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-009",
     "cells": [
      "LawHelpNY LiveHelp Volunteer Program",
-     "Virtual Legal Aid (NY State Bar)",
-     "🌐 Fully remote",
-     "New York State residents (students anywhere can volunteer)",
-     "2–4 hours/week",
-     "Apply via <a href=\"https://lawhelpny.org\" rel=\"noopener\" target=\"_blank\">lawhelpny.org</a>; Fall 2026 cycle opening ~August 2026",
-     "🌐 Remote virtual legal advice.",
-     "<a class=\"apply-link\" href=\"https://www.lawhelpny.org/volunteer\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Remote legal-information and referral chat under staff-attorney supervision",
+     "Remote from any reliable internet location",
+     "Primarily law students; cycle-specific selection applies",
+     "At least 50 total hours, generally one weekly three-hour shift",
+     "Wait for an updated official application cycle",
+     "Public page still shows a Spring 2025 deadline; no Fall 2026 opening verified",
+     "<a class=\"apply-link\" href=\"https://lhny.probono.net/volunteer\" rel=\"noopener\" target=\"_blank\">Official volunteer page →</a>"
     ],
-    "status": "upcoming",
-    "status_reason": "Corpus text contains a future-cycle date or estimate; availability is not externally verified.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "historical",
+    "status_reason": "The official page remains tied to a closed Spring 2025 cycle; the estimated Fall 2026 opening was unsupported.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-historical",
+     "source_url": "https://lhny.probono.net/volunteer",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the supervised student model and actual commitment; no current cycle is posted.",
+     "next_review_at": "2026-09-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-010",
     "cells": [
-     "NUSL Center for Public Interest Advocacy (CPIAC)",
-     "NUSL In-House",
-     "🏙️ Boston / hybrid",
-     "Boston area (some remote projects)",
-     "Project-based",
-     "Register via CPIAC / NUSL Law School Portal",
-     "🏙️ NUSL's own public interest pipeline.",
-     "<a href=\"https://neu.edu/CPIAC\" rel=\"noopener\" target=\"_blank\">neu.edu/CPIAC</a>"
+     "NUSL CPIAC — Student Volunteers for Justice",
+     "Project-specific research and assistance for public-interest partners",
+     "Greater Boston and beyond; format varies by project",
+     "Northeastern Law students; requirements vary by current project",
+     "Project-specific; a current GBLS partnership requires at least 30 hours over fall",
+     "Use CPIAC student-engagement instructions",
+     "High-relevance NUSL pathway; confirm remote access per project",
+     "<a class=\"apply-link\" href=\"https://law.northeastern.edu/academics/centers/cpiac/student-engagement/\" rel=\"noopener\" target=\"_blank\">Official CPIAC student engagement →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "NUSL confirms active student projects, but format, hours, and application steps vary.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://law.northeastern.edu/academics/centers/cpiac/student-engagement/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current student engagement and representative project commitment; replaced the obsolete URL and blanket portal claims.",
+     "next_review_at": "2026-09-15"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-011",
     "cells": [
-     "Law Foundation of Silicon Valley",
-     "Regional Legal Aid (CA)",
-     "🌐 Remote available",
-     "California licensed attorneys (students supervised)",
-     "Flexible project-based",
-     "Register via Law Foundation of Silicon Valley site",
-     "🌐 Remote-available including security deposit work and transgender ID changes.",
-     "<a class=\"apply-link\" href=\"https://www.lawfoundation.org/volunteer\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Law Foundation of Silicon Valley — Pro Bono Volunteer Opportunities",
+     "Project-specific demand letters and transgender-rights assistance",
+     "Several current projects are virtual; clients are generally in Santa Clara County",
+     "Attorney eligibility is explicit for some projects; students must confirm a supervised role",
+     "Project-specific; deposit-demand work is approximately 5–10 hours",
+     "Use the official project links or contact the pro bono team",
+     "Potential FlexJD pathway only after project-specific student confirmation",
+     "<a class=\"apply-link\" href=\"https://www.lawfoundation.org/volunteer\" rel=\"noopener\" target=\"_blank\">Official volunteer projects →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The official page confirms active virtual projects but does not establish blanket supervised-student eligibility.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.lawfoundation.org/volunteer",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified active project examples and remote elements; preserved the resource while removing unsupported universal student eligibility.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "group",
@@ -6268,103 +6345,145 @@
     "record_type": "listing",
     "id": "o7-012",
     "cells": [
-     "ABA Center for Pro Bono — Volunteer Opportunities Index",
-     "National Pro Bono Index",
-     "🌐 Fully remote (index)",
-     "None — national index",
-     "Browse and find",
-     "Visit ABA Center for Pro Bono volunteer page",
-     "🌐 Comprehensive national index of pro bono opportunities including immigration, veterans, domestic violence, housing.",
-     "<a class=\"apply-link\" href=\"https://www.americanbar.org/groups/center-pro-bono/resources/volunteer-opportunities/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "ABA / Pro Bono Net National Pro Bono Opportunities Guide",
+     "Searchable national directory",
+     "Remote status varies by host listing",
+     "Filter for law students and long-distance opportunities; verify every host",
+     "Host-specific",
+     "Search the guide and apply to the host",
+     "Duplicate discovery resource retained for completeness",
+     "<a class=\"apply-link\" href=\"https://www.probono.net/aba_oppsguide/\" rel=\"noopener\" target=\"_blank\">Search the ABA guide →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The co-branded guide is active, but it is a directory rather than a direct remote placement.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.probono.net/aba_oppsguide/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the directory and clarified that eligibility, remote status, and commitment belong to each host listing.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-013",
     "cells": [
-     "Massachusetts Pro Bono (<a href=\"https://massprobono.org\" rel=\"noopener\" target=\"_blank\">massprobono.org</a>)",
-     "Massachusetts pro bono clearinghouse",
-     "🏙️ Local + some remote",
-     "Massachusetts focus",
-     "Case-by-case",
-     "Register at <a href=\"https://massprobono.org\" rel=\"noopener\" target=\"_blank\">massprobono.org</a>",
-     "🏙️ MA-focused clearinghouse.",
-     "<a class=\"apply-link\" href=\"https://www.massprobono.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Mass Pro Bono Opportunity Guide",
+     "Massachusetts pro bono opportunity directory",
+     "Massachusetts; some host opportunities remain remote",
+     "Lawyers, law students, paralegals, and other volunteers; host-specific criteria",
+     "Host-specific",
+     "Search the guide and contact the host organization",
+     "Strong discovery resource, not itself a placement",
+     "<a class=\"apply-link\" href=\"https://massprobono.org/\" rel=\"noopener\" target=\"_blank\">Search Mass Pro Bono →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The official statewide guide is active and includes law students, but every opportunity has separate terms.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://massprobono.org/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the active Massachusetts directory, eligible user groups, and host-specific application model.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-014",
     "cells": [
-     "Florida Bar Out-of-Staters Division — Remote Pro Bono",
-     "Florida Bar Outreach",
-     "🌐 Remote",
-     "Florida-licensed attorneys nationally",
-     "Flexible",
-     "<a href=\"https://flabaroutofstaters.org\" rel=\"noopener\" target=\"_blank\">flabaroutofstaters.org</a> resources page",
-     "🌐 Remote pro bono for FL-licensed attorneys living outside Florida.",
-     "<a class=\"apply-link\" href=\"https://www.flabaroutofstaters.org/resources/remote-pro-bono-opportunities/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Florida Bar Out-of-State Division — Remote Pro Bono Opportunities",
+     "Directory of Florida pro bono opportunities performable from outside Florida",
+     "Remote from outside Florida; host-specific",
+     "Most listed programs require Florida-licensed attorneys; no general student pathway is stated",
+     "Host-specific",
+     "Contact the listed host directly",
+     "Useful after Florida licensure; not presently a general FlexJD placement",
+     "<a class=\"apply-link\" href=\"https://www.flabaroutofstaters.org/resources/remote-pro-bono-opportunities/\" rel=\"noopener\" target=\"_blank\">Official Florida directory →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The official directory is current, but listed programs generally require Florida licensure and do not establish student access.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.flabaroutofstaters.org/resources/remote-pro-bono-opportunities/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the remote directory and corrected the earlier implication that students can apply directly to the division.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-015",
     "cells": [
      "Minnesota Legal Advice Online",
-     "Minnesota pro bono",
-     "🌐 Fully remote",
-     "Minnesota residents (students volunteer from anywhere)",
-     "Flexible",
-     "<a href=\"https://lawhelpmn.org\" rel=\"noopener\" target=\"_blank\">lawhelpmn.org</a> volunteer page",
-     "🌐 Remote virtual legal advice for Minnesota residents.",
-     "<a class=\"apply-link\" href=\"https://www.lawhelpmn.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Online civil brief-advice platform",
+     "Remote and available at any time",
+     "Minnesota-licensed attorneys in good standing; law students are not eligible as independent volunteers",
+     "No minimum; responses generally take 10–60 minutes",
+     "Register with attorney identification and await approval",
+     "Not a FlexJD student opportunity",
+     "<a class=\"apply-link\" href=\"https://www.mnlegaladvice.org/become-volunteer-lawyer\" rel=\"noopener\" target=\"_blank\">Official volunteer requirements →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The platform is active but requires Minnesota attorney licensure.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.mnlegaladvice.org/become-volunteer-lawyer",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified licensure, flexible remote service, and registration requirements; removed the unsupported student-access claim.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-016",
     "cells": [
-     "SHIP — State Health Insurance Assistance Program (Medicare counseling)",
-     "Federal Medicare Counseling Program",
-     "🌐 Fully remote",
-     "None — serves Medicare beneficiaries nationwide (students volunteer from anywhere)",
-     "Flexible",
-     "<a href=\"https://shiphelp.org\" rel=\"noopener\" target=\"_blank\">shiphelp.org</a>",
-     "🌐 Fully remote.",
-     "<a class=\"apply-link\" href=\"https://www.shiphelp.org/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "State Health Insurance Assistance Program Volunteer",
+     "Non-legal Medicare counseling, outreach, and office support",
+     "Local SHIP program determines location and remote options",
+     "Community volunteers; no insurance background required and training is provided",
+     "Local-program specific",
+     "Select and contact the local SHIP program",
+     "Public-service option, not legal pro bono or guaranteed law-school credit",
+     "<a class=\"apply-link\" href=\"https://www.shiphelp.org/volunteer/\" rel=\"noopener\" target=\"_blank\">Official SHIP volunteer page →</a>"
     ],
-    "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status": "rolling",
+    "status_reason": "The national SHIP page confirms volunteer roles and training, but local programs control modality and commitment.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.shiphelp.org/volunteer/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified active community-volunteer pathways and corrected the legal, fully remote, and nationwide-individual-service implications.",
+     "next_review_at": "2026-11-20"
+    }
    },
    {
     "record_type": "listing",
     "id": "o7-017",
     "cells": [
      "National Constitution Center Scholar Exchanges",
-     "National Constitution Center",
-     "🌐 Fully remote (Zoom)",
-     "None — national program",
-     "1–2 hours per session",
-     "Register via National Constitution Center",
-     "🌐 Virtual civics education discussions with K-12 students.",
-     "<a class=\"apply-link\" href=\"https://constitutioncenter.org/learn/scholar-exchanges\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "Teacher-booked virtual constitutional discussions",
+     "Virtual classroom events",
+     "The public page is for teachers booking classes; it does not confirm an open law-student facilitator pathway",
+     "A booked discussion is 45 minutes; volunteer preparation requirements are not published",
+     "Contact the education team to ask about JD-student facilitation",
+     "Student volunteer feasibility remains unconfirmed",
+     "<a class=\"apply-link\" href=\"https://constitutioncenter.org/education/live-online-events/peer-to-peer-exchanges\" rel=\"noopener\" target=\"_blank\">Official Scholar Exchanges page →</a>"
     ],
     "status": "needs-review",
-    "status_reason": "Corpus does not provide enough current-cycle evidence for a more specific triage status; primary-source review is needed.",
-    "corpus_reviewed_at": "2026-08-20"
+    "status_reason": "The official page confirms virtual classroom programming but not public law-student volunteer registration.",
+    "corpus_reviewed_at": "2026-08-20",
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://constitutioncenter.org/education/live-online-events/peer-to-peer-exchanges",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the teacher-booking model and removed unsupported student eligibility, registration, and time claims.",
+     "next_review_at": "2026-09-15"
+    }
    }
   ],
   "row_count": 17
@@ -7056,7 +7175,13 @@
     "status": "historical",
     "status_reason": "NAWL confirms the 2026 writing-competition deadline passed on April 17, 2026; the opportunity is preserved for the next cycle.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://www.nawl.org/law-student-opportunities","checked_at":"2026-08-20","evidence_note":"Verified the competition name, $1,000 prize and benefits, broad ABA-law-school eligibility, and closed April 17, 2026 deadline; the page does not limit eligibility to women.","next_review_at":"2027-02-01"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.nawl.org/law-student-opportunities",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the competition name, $1,000 prize and benefits, broad ABA-law-school eligibility, and closed April 17, 2026 deadline; the page does not limit eligibility to women.",
+     "next_review_at": "2027-02-01"
+    }
    },
    {
     "record_type": "listing",
@@ -7072,7 +7197,13 @@
     "status": "needs-review",
     "status_reason": "AILA confirms the program and express part-time eligibility, but its closed page retains old 2024 cycle language and no reliable current deadline.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"source-checked","source_url":"https://www.aila.org/diversity-equity-inclusion/aila-diversity-inclusion-law-school-scholarships","checked_at":"2026-08-20","evidence_note":"Verified ten $750 awards, required free student membership, and express part-time eligibility; the page is closed and cycle language is stale.","next_review_at":"2026-11-02"}
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.aila.org/diversity-equity-inclusion/aila-diversity-inclusion-law-school-scholarships",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified ten $750 awards, required free student membership, and express part-time eligibility; the page is closed and cycle language is stale.",
+     "next_review_at": "2026-11-02"
+    }
    },
    {
     "record_type": "listing",
@@ -7088,7 +7219,13 @@
     "status": "historical",
     "status_reason": "AAJ's official law-student hub states that all 2026 scholarship applications are closed.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://www.justice.org/member-groups/caucuses/law-students","checked_at":"2026-08-20","evidence_note":"Verified the current scholarship collection, representative amounts, closed 2026 status, and explicit night-program pathways in specific awards.","next_review_at":"2026-12-01"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.justice.org/member-groups/caucuses/law-students",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the current scholarship collection, representative amounts, closed 2026 status, and explicit night-program pathways in specific awards.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -7104,7 +7241,13 @@
     "status": "historical",
     "status_reason": "NACDL's official fellowship materials confirm the March 9, 2026 deadline has passed.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://www.nacdl.org/Landing/LawStudentSummerFellowship","checked_at":"2026-08-20","evidence_note":"Verified the maximum $4,500 stipend, placement rules, qualifying part-time/evening pathway, and closed March 9, 2026 deadline.","next_review_at":"2026-12-01"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.nacdl.org/Landing/LawStudentSummerFellowship",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the maximum $4,500 stipend, placement rules, qualifying part-time/evening pathway, and closed March 9, 2026 deadline.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -7120,7 +7263,13 @@
     "status": "historical",
     "status_reason": "The foundation confirms the 2026 cycle is closed and requires full-time enrollment as defined by the applicant's institution or program.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://pattillmanfoundation.org/apply/","checked_at":"2026-08-20","evidence_note":"Verified closed status, military and spouse categories, full-time enrollment requirement, and allowable uses; removed the unsupported fixed award range.","next_review_at":"2026-12-01"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://pattillmanfoundation.org/apply/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified closed status, military and spouse categories, full-time enrollment requirement, and allowable uses; removed the unsupported fixed award range.",
+     "next_review_at": "2026-12-01"
+    }
    },
    {
     "record_type": "listing",
@@ -7136,7 +7285,13 @@
     "status": "needs-review",
     "status_reason": "TNYBF confirms multiple named opportunities but publishes no uniform amount or umbrella deadline.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"source-checked","source_url":"https://www.tnybf.org/grants-scholarships/","checked_at":"2026-08-20","evidence_note":"Verified the active umbrella collection and award-specific eligibility; amounts and deadlines vary, and part-time eligibility is not universal.","next_review_at":"2026-09-15"}
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.tnybf.org/grants-scholarships/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the active umbrella collection and award-specific eligibility; amounts and deadlines vary, and part-time eligibility is not universal.",
+     "next_review_at": "2026-09-15"
+    }
    },
    {
     "record_type": "listing",
@@ -7152,7 +7307,13 @@
     "status": "historical",
     "status_reason": "The official 2026 FAQ confirms the deadline passed and expressly excludes part-time students.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://changelawyers.org/next-gen-scholars/","checked_at":"2026-08-20","evidence_note":"Verified $50,000 total support, exact deadline, incoming-1L criteria, and explicit full-time-only rule.","next_review_at":"2027-01-15"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://changelawyers.org/next-gen-scholars/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified $50,000 total support, exact deadline, incoming-1L criteria, and explicit full-time-only rule.",
+     "next_review_at": "2027-01-15"
+    }
    },
    {
     "record_type": "listing",
@@ -7168,7 +7329,13 @@
     "status": "needs-review",
     "status_reason": "The official site confirms the awards and member eligibility but publishes no current amount, application window, or deadline.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"source-checked","source_url":"https://phideltaphi.org/membership/member-benefits/","checked_at":"2026-08-20","evidence_note":"Verified current award names and membership relationship; the previous destination was obsolete and no current cycle details are public.","next_review_at":"2026-11-01"}
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://phideltaphi.org/membership/member-benefits/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified current award names and membership relationship; the previous destination was obsolete and no current cycle details are public.",
+     "next_review_at": "2026-11-01"
+    }
    },
    {
     "record_type": "listing",
@@ -7184,7 +7351,13 @@
     "status": "historical",
     "status_reason": "The former national umbrella claim was unsupported; this official chapter opportunity closed July 31, 2026 and is preserved for next-cycle planning.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://www.sabany.org/innovation-scholarship","checked_at":"2026-08-20","evidence_note":"Verified the specific SABANY/Lingam award, maximum amount, criteria, and closed deadline; no current national SABA North America law-student scholarship was substantiated.","next_review_at":"2027-06-15"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.sabany.org/innovation-scholarship",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the specific SABANY/Lingam award, maximum amount, criteria, and closed deadline; no current national SABA North America law-student scholarship was substantiated.",
+     "next_review_at": "2027-06-15"
+    }
    },
    {
     "record_type": "listing",
@@ -7200,7 +7373,13 @@
     "status": "needs-review",
     "status_reason": "Official FBA section pages confirm multiple independent opportunities with mixed statuses; the former Veterans and Immigration claims were not substantiated by the cited page.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"source-checked","source_url":"https://www.fedbar.org/health-law-section/","checked_at":"2026-08-20","evidence_note":"Verified section-specific opportunities and representative $1,500 support; every section has separate criteria and timing, so no umbrella current-cycle claim is made.","next_review_at":"2026-09-01"}
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://www.fedbar.org/health-law-section/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified section-specific opportunities and representative $1,500 support; every section has separate criteria and timing, so no umbrella current-cycle claim is made.",
+     "next_review_at": "2026-09-01"
+    }
    },
    {
     "record_type": "group",
@@ -7228,7 +7407,13 @@
     "status": "historical",
     "status_reason": "HSF confirms the 2026 cycle is closed and requires planned full-time enrollment, excluding typical part-time FlexJD enrollment.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://www.hsf.net/scholarship/","checked_at":"2026-08-20","evidence_note":"Verified conditional $500–$5,000 funding, citizenship or DACA categories, GPA/FAFSA rules, full-time requirement, and closed February 15, 2026 deadline.","next_review_at":"2027-01-05"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://www.hsf.net/scholarship/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified conditional $500–$5,000 funding, citizenship or DACA categories, GPA/FAFSA rules, full-time requirement, and closed February 15, 2026 deadline.",
+     "next_review_at": "2027-01-05"
+    }
    },
    {
     "record_type": "listing",
@@ -7244,7 +7429,13 @@
     "status": "upcoming",
     "status_reason": "The ABA Tax Section confirms the 2027–2029 application is open and due November 6, 2026.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-current","source_url":"https://www.americanbar.org/groups/taxation/about/awards-initiatives/public-service-fellowship/guidelines/","checked_at":"2026-08-20","evidence_note":"Verified open status, exact deadline, two-year salary-and-benefits grant structure, and post-graduate sponsor requirement.","next_review_at":"2026-11-07"}
+    "verification": {
+     "state": "primary-current",
+     "source_url": "https://www.americanbar.org/groups/taxation/about/awards-initiatives/public-service-fellowship/guidelines/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified open status, exact deadline, two-year salary-and-benefits grant structure, and post-graduate sponsor requirement.",
+     "next_review_at": "2026-11-07"
+    }
    },
    {
     "record_type": "listing",
@@ -7260,7 +7451,13 @@
     "status": "historical",
     "status_reason": "The official 2026–27 fellowship deadline passed on March 15, 2026; this is a post-JD full-time academic fellowship, not a student scholarship.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://fedsoc.org/opportunities/olin-smith-darling-fellows-in-law-full-time","checked_at":"2026-08-20","evidence_note":"Verified correct name, $70,000 stipend, full-time/no-other-employment rule, post-JD academic focus, and closed deadline.","next_review_at":"2027-01-15"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://fedsoc.org/opportunities/olin-smith-darling-fellows-in-law-full-time",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified correct name, $70,000 stipend, full-time/no-other-employment rule, post-JD academic focus, and closed deadline.",
+     "next_review_at": "2027-01-15"
+    }
    },
    {
     "record_type": "listing",
@@ -7276,7 +7473,13 @@
     "status": "needs-review",
     "status_reason": "The original general scholarship claim was unsupported; the official IBF page instead confirms a post-graduate fellowship but no current public cycle.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"source-checked","source_url":"https://illinoisbarfoundation.org/programs/post-graduate-legal-fellowship/","checked_at":"2026-08-20","evidence_note":"Verified the actual IBF law-student-adjacent program and preserved it with a warning that no current application, deadline, or recent cohort is published.","next_review_at":"2027-01-15"}
+    "verification": {
+     "state": "source-checked",
+     "source_url": "https://illinoisbarfoundation.org/programs/post-graduate-legal-fellowship/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the actual IBF law-student-adjacent program and preserved it with a warning that no current application, deadline, or recent cohort is published.",
+     "next_review_at": "2027-01-15"
+    }
    },
    {
     "record_type": "listing",
@@ -7292,7 +7495,13 @@
     "status": "historical",
     "status_reason": "IABA's official 2026 page marks applications closed; the explicit part-time and evening eligibility makes this important for the next FlexJD cycle.",
     "corpus_reviewed_at": "2026-08-20",
-    "verification": {"state":"primary-closed","source_url":"https://iaba.us/iaba-scholarships-for-2026/","checked_at":"2026-08-20","evidence_note":"Verified the 2026 award collection, published amounts, express part-time/evening eligibility, exact deadline, and closed status.","next_review_at":"2027-05-15"}
+    "verification": {
+     "state": "primary-closed",
+     "source_url": "https://iaba.us/iaba-scholarships-for-2026/",
+     "checked_at": "2026-08-20",
+     "evidence_note": "Verified the 2026 award collection, published amounts, express part-time/evening eligibility, exact deadline, and closed status.",
+     "next_review_at": "2027-05-15"
+    }
    }
   ],
   "row_count": 25
