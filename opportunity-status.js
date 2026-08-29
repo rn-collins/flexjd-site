@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded',function(){
   var category='all', status='all';
   var labels={historical:'Historical record',upcoming:'Future date in record · unverified',rolling:'Rolling language · unverified','needs-review':'Needs primary-source review'};
   var verificationLabels={'source-checked':'Official destination checked','primary-current':'Current terms source-checked','primary-historical':'Historical terms source-checked','primary-closed':'Closed cycle source-checked'};
+  // A "terms" check confirmed the claims recorded here against the sponsor's own page.
+  // 'source-checked' confirmed only that the link still reaches the official destination.
+  var termsChecked={'primary-current':1,'primary-historical':1,'primary-closed':1};
 
   rows.forEach(function(row){
     var cell=row.querySelector('td'), value=row.getAttribute('data-status');
@@ -25,10 +28,25 @@ document.addEventListener('DOMContentLoaded',function(){
     }
     row.querySelectorAll('a.apply-link').forEach(function(link){
       var sourceChecked=Boolean(verificationLabels[verification]);
-      link.textContent=sourceChecked?(verification==='primary-current'?'Open checked primary source →':'Open checked historical source →'):(value==='historical'?'Official archive/source →':'Check official source →');
-      link.setAttribute('aria-label',((sourceChecked?'Open checked primary source for ':(value==='historical'?'Open official archive or source for ':'Check current status with official source for '))+(cell.textContent||'this record').replace(labels[value],'').replace(verificationLabels[verification]||'','').trim()));
+      var isHistorical=value==='historical';
+      link.textContent=sourceChecked?(isHistorical?'Open checked historical source →':'Open checked primary source →'):(isHistorical?'Official archive/source →':'Check official source →');
+      link.setAttribute('aria-label',((sourceChecked?(isHistorical?'Open checked historical source for ':'Open checked primary source for '):(isHistorical?'Open official archive or source for ':'Check current status with official source for '))+(cell.textContent||'this record').replace(labels[value],'').replace(verificationLabels[verification]||'','').trim()));
     });
   });
+
+  // Derive the header summary from the records themselves so it can never drift
+  // from the live counter below or from the data.
+  var summary=document.getElementById('oppVerificationSummary');
+  if(summary){
+    var counts={};
+    rows.forEach(function(row){var v=row.getAttribute('data-verification')||'none';counts[v]=(counts[v]||0)+1;});
+    var nCurrent=counts['primary-current']||0,nHistorical=counts['primary-historical']||0,nClosed=counts['primary-closed']||0;
+    var nDestination=counts['source-checked']||0;
+    var nTerms=nCurrent+nHistorical+nClosed;
+    var nNone=rows.length-nTerms-nDestination;
+    var text='Of '+rows.length+' records, '+nTerms+' have had their recorded terms checked against the sponsor’s own page ('+nCurrent+' current-cycle, '+nHistorical+' historical, '+nClosed+' closed cycle) and '+nDestination+' have had only the official destination confirmed';
+    summary.textContent=text+(nNone?('; '+nNone+' carry no source check.'):'.');
+  }
 
   function setChips(selector,attribute,value){
     document.querySelectorAll(selector).forEach(function(chip){
@@ -61,8 +79,10 @@ document.addEventListener('DOMContentLoaded',function(){
     });
     if(clear) clear.hidden=!query;
     if(message){
-      var checked=rows.filter(function(row){return !row.classList.contains('opp-hidden')&&verificationLabels[row.getAttribute('data-verification')];}).length;
-      message.textContent=visible+' of '+rows.length+' records shown; '+checked+' shown records have a dated primary-source check. Status and source-check badges describe different things.';
+      var shown=rows.filter(function(row){return !row.classList.contains('opp-hidden');});
+      var shownTerms=shown.filter(function(row){return termsChecked[row.getAttribute('data-verification')];}).length;
+      var shownDestination=shown.filter(function(row){return row.getAttribute('data-verification')==='source-checked';}).length;
+      message.textContent=visible+' of '+rows.length+' records shown; '+shownTerms+' with their recorded terms checked against the sponsor’s own page, '+shownDestination+' with the official destination confirmed only. Status badges and source-check badges describe different things.';
     }
   }
   document.querySelectorAll('[data-cat]').forEach(function(chip){chip.addEventListener('click',function(){category=chip.getAttribute('data-cat');setChips('[data-cat]','data-cat',category);applyFilters();});});

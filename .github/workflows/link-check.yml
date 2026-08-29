@@ -34,8 +34,30 @@ jobs:
           path: ./internal-link-report.txt
           if-no-files-found: error
 
+      # Offline structural lint. lychee only sees status codes, so it cannot tell
+      # that a call-to-action link resolves 200 against the wrong page. This catches
+      # the promise/destination mismatch without touching the network.
+      - name: Check link-text integrity
+        id: integrity
+        continue-on-error: true
+        run: python scripts/check_link_integrity.py
+
+      - name: Upload link-integrity report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-integrity-report
+          path: ./link-integrity-report.txt
+          if-no-files-found: error
+
+      # --accept lists the codes that mean "a bot wall answered", not "the page is gone".
+      # 401 (Cloudflare basic-auth wall), 202 (SiteGround captcha interstitial), 406 and
+      # 999 all occur across this corpus on pages that are live in a real browser. They sit
+      # alongside the 403/429 that were already accepted. 404, 410, 5xx and transport
+      # failures stay fatal.
       - name: Check external links and write report
         id: external
+        continue-on-error: true
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
@@ -44,13 +66,14 @@ jobs:
             --max-retries 3
             --retry-wait-time 3
             --timeout 30
-            --accept 200,204,206,403,429
+            --accept 200,202,204,206,401,403,406,429,999
             --exclude-mail
             --exclude '^https://github.com/rn-collins/flexjd-site/blob/'
             --format markdown
             --output ./lychee-external-report.md
             './**/*.html'
             './**/*.md'
+            './data/*.json'
           fail: true
 
       - name: Upload external-link report
@@ -61,16 +84,60 @@ jobs:
           path: ./lychee-external-report.md
           if-no-files-found: ignore
 
-      - name: Create issue for scheduled external-link findings
-        if: steps.external.outcome == 'failure' && github.event_name == 'schedule'
+      # Soft-404s (HTTP 200 from a page that is not what the link promises) are invisible
+      # to a status-code checker. This fetches each destination and compares where it
+      # actually lands. Network-dependent, so it runs on the weekly audit and on manual
+      # dispatch rather than blocking every pull request.
+      - name: Check external destinations for soft-404s
+        id: destinations
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: python scripts/check_external_destinations.py
+
+      - name: Upload destination report
+        if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-destination-report
+          path: ./external-destination-report.md
+          if-no-files-found: ignore
+
+      # always() is required. Without a status-check function GitHub prepends an implicit
+      # success() to every `if`, so a condition that tests for a FAILED step can never be
+      # true - the step it depends on failing is exactly what makes success() false. That
+      # is why the weekly audit never once filed an issue.
+      - name: Create issue for scheduled link findings
+        if: always() && github.event_name == 'schedule' && (steps.external.outcome == 'failure' || steps.destinations.outcome == 'failure')
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "Automated external-link audit found unreachable links"
+          title: "Automated external-link audit found unreachable or misdirected links"
           content-filepath: ./lychee-external-report.md
           labels: maintenance,links
 
-      - name: Enforce internal-link integrity
-        if: steps.internal.outcome == 'failure'
+      # Single gate for every check above. Each check is continue-on-error so that the
+      # reports upload and the issue is filed; this step is what actually fails the job.
+      - name: Enforce link integrity
+        if: always()
         run: |
-          cat ./internal-link-report.txt
-          exit 1
+          failed=0
+          if [ "${{ steps.internal.outcome }}" = "failure" ]; then
+            echo "::error::Internal-link validation failed"
+            cat ./internal-link-report.txt || true
+            failed=1
+          fi
+          if [ "${{ steps.integrity.outcome }}" = "failure" ]; then
+            echo "::error::Link-text integrity check failed"
+            cat ./link-integrity-report.txt || true
+            failed=1
+          fi
+          if [ "${{ steps.external.outcome }}" = "failure" ]; then
+            echo "::error::External-link check found unreachable links"
+            cat ./lychee-external-report.md || true
+            failed=1
+          fi
+          if [ "${{ steps.destinations.outcome }}" = "failure" ]; then
+            echo "::error::External destinations check found soft-404s"
+            cat ./external-destination-report.md || true
+            failed=1
+          fi
+          exit $failed

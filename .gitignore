@@ -1,2 +1,8 @@
 .DS_Store
 .vercel
+
+# Link-check reports, written by scripts/check_*.py and uploaded as CI artifacts
+internal-link-report.txt
+link-integrity-report.txt
+lychee-external-report.md
+external-destination-report.md
