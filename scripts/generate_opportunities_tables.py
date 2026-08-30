@@ -41,7 +41,10 @@ def validate(sections):
     if 'href="http' not in ' '.join(str(cell) for cell in cells): raise SystemExit(f'{rid}: missing sponsor/originating-source destination')
    else: other+=1
   if count!=int(section['declared_count']) or count!=section.get('row_count'): raise SystemExit(f"{section['id']}: listing count mismatch")
- if (listings,other)!=(328,44): raise SystemExit(f'expected 328 listings + 44 non-listings, got {listings} + {other}')
+ # Corpus size is locked so the registry cannot drift silently. Changing it is
+ # a deliberate act: 2026-08-30 added o4-011b, the Massachusetts Appeals Court
+ # clerkship, whose application window closes 31 August 2026.
+ if (listings,other)!=(329,44): raise SystemExit(f'expected 329 listings + 44 non-listings, got {listings} + {other}')
  return listings,other,source_checked
 
 def esc(v,quote=False): return html.escape(str(v),quote=quote)

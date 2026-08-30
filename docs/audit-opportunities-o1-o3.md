@@ -195,7 +195,7 @@ python scripts/check_stale_opportunities.py
 git diff --check -- data/opportunities.json opportunities.html
 ```
 
-The generator must continue to report 328 listings and 44 preserved group/placeholder rows.
+The generator must continue to report 329 listings and 44 preserved group/placeholder rows. (328 until 2026-08-30, when the Massachusetts Appeals Court clerkship was added.)
 
 ## Validation at handoff
 

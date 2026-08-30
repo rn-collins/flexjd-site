@@ -46,7 +46,7 @@ def main():
  for status in sorted(STATUSES): print(f'- {status}: {counts[status]}')
  print(f'Primary-source evidence: {sum(verification_counts.values())}; unchecked records: {sum(counts.values())-sum(verification_counts.values())}')
  for state in sorted(VERIFICATION_STATES): print(f'- {state}: {verification_counts[state]}')
- if sum(counts.values())!=328 or groups!=44: errors.append('expected exactly 328 listings and 44 group/placeholder rows')
+ if sum(counts.values())!=329 or groups!=44: errors.append('expected exactly 329 listings and 44 group/placeholder rows')
  if errors:
   for error in errors: print('ERROR:',error)
   return 1
