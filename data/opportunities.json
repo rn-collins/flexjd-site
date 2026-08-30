@@ -942,14 +942,14 @@
      "Rolling",
      "DC + regional offices nationwide",
      "📍 Regional offices in most major cities.",
-     "<a class=\"apply-link\" href=\"https://www.dol.gov/agencies/sol/internships\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "<a class=\"apply-link\" href=\"https://www.dol.gov/agencies/sol/careers/internships\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "needs-review",
     "status_reason": "Official sponsor/employer destination retained, but the page was not confirmed to support every recorded current claim. Verify the exact student program, application window, citizenship/work-authorization rule, location, and remote/hybrid format before publishing an open or rolling status.",
     "corpus_reviewed_at": "2026-08-20",
     "verification": {
      "state": "source-checked",
-     "source_url": "https://www.dol.gov/agencies/sol/internships",
+     "source_url": "https://www.dol.gov/agencies/sol/careers/internships",
      "checked_at": "2026-08-20",
      "evidence_note": "Official sponsor or employer destination checked; current-cycle details remain unconfirmed.",
      "next_review_at": "2026-10-01"
@@ -1046,14 +1046,14 @@
      "Rolling",
      "Washington DC",
      "📍 DC-based hybrid.",
-     "<a class=\"apply-link\" href=\"https://www.citizen.org/employment/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "<a class=\"apply-link\" href=\"https://www.citizen.org/about/careers/legal-internship-or-externship/\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "needs-review",
     "status_reason": "Official sponsor/employer destination retained, but the page was not confirmed to support every recorded current claim. Verify the exact student program, application window, citizenship/work-authorization rule, location, and remote/hybrid format before publishing an open or rolling status.",
     "corpus_reviewed_at": "2026-08-20",
     "verification": {
      "state": "source-checked",
-     "source_url": "https://www.citizen.org/employment/",
+     "source_url": "https://www.citizen.org/about/careers/legal-internship-or-externship/",
      "checked_at": "2026-08-20",
      "evidence_note": "Official sponsor or employer destination checked; current-cycle details remain unconfirmed.",
      "next_review_at": "2026-10-01"
@@ -4893,14 +4893,14 @@
      "✅ Ongoing",
      "🏙️ Boston / Massachusetts offices",
      "🏙️ Most relevant AG office given NUSL location. Many NUSL students have placed here.",
-     "<a class=\"apply-link\" href=\"https://www.mass.gov/internships-at-the-attorney-generals-office\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
+     "<a class=\"apply-link\" href=\"https://www.mass.gov/info-details/internships-at-the-attorney-generals-office-ago\" rel=\"noopener\" target=\"_blank\">Apply →</a>"
     ],
     "status": "needs-review",
     "status_reason": "Official sponsor/employer destination retained, but no current cycle-specific application page was verified for this named fellowship. Do not rely on recorded compensation, deadline, eligibility, host requirement, or open/rolling label until the sponsor publishes them.",
     "corpus_reviewed_at": "2026-08-20",
     "verification": {
      "state": "source-checked",
-     "source_url": "https://www.mass.gov/internships-at-the-attorney-generals-office",
+     "source_url": "https://www.mass.gov/info-details/internships-at-the-attorney-generals-office-ago",
      "checked_at": "2026-08-20",
      "evidence_note": "Official sponsor or employer destination checked; current-cycle details remain unconfirmed.",
      "next_review_at": "2026-10-01"
@@ -5983,14 +5983,14 @@
      "🔒 Closed May 15, 2026 / calendar 2027",
      "📍 California",
      "Historical deadline: May 15, 2026. A 2027 date was only an estimate; search the official sponsor for any current cycle.",
-     "<a href=\"https://ucdavis.edu/career-services/job-resources/public-service-fellowships\" rel=\"noopener\" target=\"_blank\">ucdavis.edu/career-services/job-resources/public-service-fellowships</a>"
+     "<a href=\"https://law.ucdavis.edu/career-services/job-resources/public-service-fellowships\" rel=\"noopener\" target=\"_blank\">ucdavis.edu/career-services/job-resources/public-service-fellowships</a>"
     ],
     "status": "historical",
     "status_reason": "Preserve the recorded closed/past cycle. The sponsor destination does not establish a currently open 2027 application in this audit; deadline, compensation, and eligibility require a new official cycle page.",
     "corpus_reviewed_at": "2026-08-20",
     "verification": {
      "state": "primary-historical",
-     "source_url": "https://ucdavis.edu/career-services/job-resources/public-service-fellowships",
+     "source_url": "https://law.ucdavis.edu/career-services/job-resources/public-service-fellowships",
      "checked_at": "2026-08-20",
      "evidence_note": "Official sponsor or employer source checked; preserved as a historical lead because no later confirmed cycle was found.",
      "next_review_at": "2026-12-01"
