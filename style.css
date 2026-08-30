@@ -501,3 +501,23 @@ details.faq.res-hidden,tr.res-hidden,.frame.res-hidden{display:none!important}
 .csec.res-empty{display:none}
 details.faq.gl-hidden{display:none!important}
 .csec.gl-empty{display:none}
+
+/* ═══ RECEIPTS — the student-resource voice ═════════════════════════════════
+   This site's job is not to sound authoritative; it is to show where every
+   claim came from and when it was last looked at. These two components make
+   that visible instead of burying it in fine print.
+   Contrast verified on --canvas #F7F5F0 and --paper #FFFFFF.
+   ═════════════════════════════════════════════════════════════════════════ */
+.srcnote{display:block;margin-top:1.6rem;padding:10px 0 0 14px;border-left:3px solid var(--line-2);
+  font-family:var(--sans);font-size:.84rem;line-height:1.55;color:var(--tx-mute);max-width:68ch}
+.srcnote strong{color:var(--tx-soft);font-weight:600}
+.prose .srcnote a,.srcnote a{color:var(--link);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+
+/* Card headings that are themselves links: keep the serif weight, add the
+   affordance. Verified 6.3:1 on --accent-wash. */
+.frame__h a{color:var(--link);font-family:inherit;font-weight:600;text-decoration:none}
+.frame__h a:hover,.frame__h a:focus-visible{color:var(--link-hover);text-decoration:underline;text-underline-offset:3px}
+.frame:has(.frame__h a:hover){box-shadow:var(--sh-3);transform:translateY(-3px)}
+.prose code,.lead-p code,.frame__b code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em;
+  background:var(--canvas-2);color:var(--ink);padding:.1em .38em;border-radius:var(--r-xs);overflow-wrap:anywhere}
+.prose a,.lead-p a{overflow-wrap:anywhere}
