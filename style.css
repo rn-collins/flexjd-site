@@ -1,9 +1,13 @@
 /* ═══════════════════════════════════════════════════════════════════════════
    FlexJD SBA Resource Hub — Premium Design System
-   Editorial legal-civic aesthetic. Fraunces display · Inter text · Newsreader accents.
+   Editorial legal-civic aesthetic. Cardo display · Barlow text.
+   Still linked from fonts.googleapis.com rather than self-hosted, deliberately:
+   the enforced CSP already allows style-src/font-src for Google, and privacy.html
+   discloses those two hosts as the only external request a reader makes. Self-hosting
+   would have made that published disclosure wrong. Two families in, two families out.
    Accessibility gate: every text/link pairing verified ≥4.5 (AA) on its real bg.
    ═══════════════════════════════════════════════════════════════════════════ */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;450;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Barlow:wght@400;500;600;700&display=swap');
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:80px}
@@ -47,8 +51,8 @@ body:has(.secnav){scroll-padding-top:150px}
   /* ── FEEDBACK ── */
   --ok:#0F6B47; --warn-bg:#FBEFD6; --warn-tx:#7A4E00; --warn-line:#E0B457;
 
-  --serif:'Fraunces',Georgia,'Times New Roman',serif;
-  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+  --serif:'Cardo',Georgia,'Times New Roman',serif;
+  --sans:'Barlow',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
 
   --r-xs:6px; --r:12px; --r-lg:20px; --r-xl:28px; --r-pill:999px;
   --sh-1:0 1px 2px rgba(17,27,46,.05),0 1px 1px rgba(17,27,46,.04);
@@ -89,19 +93,19 @@ a:hover{color:var(--link-hover);text-decoration:underline;text-underline-offset:
 .btn:hover{text-decoration:none;transform:translateY(-2px)}
 .btn:active{transform:translateY(0)}
 .btn svg{width:18px;height:18px}
-.btn--primary{background:var(--red);color:#fff;box-shadow:var(--sh-2)}
-.btn--primary:hover{background:var(--red-deep);color:#fff;box-shadow:var(--sh-3)}
-.btn--dark{background:var(--ink);color:#fff}
-.btn--dark:hover{background:var(--ink-2);color:#fff}
-.btn--accent{background:var(--accent-strong);color:#fff;box-shadow:var(--sh-2)}
-.btn--accent:hover{background:var(--accent-deep);color:#fff;box-shadow:var(--sh-accent)}
-.btn--outline{background:transparent;color:var(--ink);border-color:var(--line-2)}
-.btn--outline:hover{border-color:var(--ink);background:var(--paper);color:var(--ink)}
+.btn.btn--primary{background:var(--red);color:#fff;box-shadow:var(--sh-2)}
+.btn.btn--primary:hover{background:var(--red-deep);color:#fff;box-shadow:var(--sh-3)}
+.btn.btn--dark{background:var(--ink);color:#fff}
+.btn.btn--dark:hover{background:var(--ink-2);color:#fff}
+.btn.btn--accent{background:var(--accent-strong);color:#fff;box-shadow:var(--sh-2)}
+.btn.btn--accent:hover{background:var(--accent-deep);color:#fff;box-shadow:var(--sh-accent)}
+.btn.btn--outline{background:transparent;color:var(--ink);border-color:var(--line-2)}
+.btn.btn--outline:hover{border-color:var(--ink);background:var(--paper);color:var(--ink)}
 /* Buttons on dark/accent backgrounds */
 .on-dark .btn--onlight,.dark-panel .btn--onlight{background:#fff;color:var(--accent-ink)}
 .on-dark .btn--onlight:hover,.dark-panel .btn--onlight:hover{background:var(--canvas);color:var(--accent-deep)}
-.on-dark .btn--wire,.dark-panel .btn--wire{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.55)}
-.on-dark .btn--wire:hover,.dark-panel .btn--wire:hover{background:rgba(255,255,255,.18);color:#fff;border-color:#fff}
+.on-dark .btn--wire,.dark-panel .btn--wire{background:rgba(0,0,0,.16);color:#fff;border-color:rgba(255,255,255,.55)}
+.on-dark .btn--wire:hover,.dark-panel .btn--wire:hover{background:rgba(0,0,0,.26);color:#fff;border-color:#fff}
 
 /* ═══ NAV ═══ */
 .nav{position:sticky;top:0;z-index:500;background:color-mix(in srgb,var(--canvas) 82%,transparent);backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid transparent;transition:border-color .2s,background .2s,box-shadow .2s}
@@ -164,7 +168,7 @@ a:hover{color:var(--link-hover);text-decoration:underline;text-underline-offset:
 .hero__in{position:relative;max-width:var(--wrap);margin:0 auto;padding:96px 24px 84px}
 .hero__eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 16px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-pill);font-size:.8rem;font-weight:600;letter-spacing:.04em;color:var(--tx-soft);margin-bottom:28px;box-shadow:var(--sh-1)}
 .hero__eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--red)}
-.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.02;letter-spacing:-.025em;color:var(--ink);max-width:15ch;margin-bottom:26px}
+.hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.5rem,5.6vw,4.3rem);line-height:1.06;letter-spacing:-.012em;color:var(--ink);max-width:15ch;margin-bottom:26px}
 .hero h1 em{font-style:italic;color:var(--red-deep);position:relative}
 .hero__lede{font-size:clamp(1.1rem,1.6vw,1.3rem);line-height:1.6;color:var(--tx-soft);max-width:50ch;margin-bottom:38px}
 .hero__cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
@@ -189,7 +193,7 @@ a:hover{color:var(--link-hover);text-decoration:underline;text-underline-offset:
 .section__head.center{margin-left:auto;margin-right:auto;text-align:center}
 .eyebrow{display:inline-block;font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:14px}
 .eyebrow--red{color:var(--red-deep)}
-h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7rem);letter-spacing:-.02em;color:var(--ink);line-height:1.08}
+h2.big{font-family:var(--serif);font-weight:700;font-size:clamp(1.85rem,3.2vw,2.55rem);letter-spacing:-.01em;color:var(--ink);line-height:1.08}
 .section__sub{margin-top:16px;font-size:1.12rem;color:var(--tx-soft);line-height:1.6}
 
 /* ═══ ENTRY CARDS (home) ═══ */
@@ -216,7 +220,7 @@ h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7
 .ccard__top{padding:26px 26px 22px;color:#fff;position:relative;overflow:hidden;min-height:128px;display:flex;flex-direction:column;justify-content:flex-end}
 .ccard__top::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 130% at 88% 0%,rgba(255,255,255,.18),transparent 62%)}
 .ccard__badge{position:absolute;top:16px;right:16px;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.9);color:var(--ink);padding:4px 11px;border-radius:var(--r-pill)}
-.ccard__mo{font-size:.74rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:rgba(255,255,255,.92);position:relative}
+.ccard__mo{font-size:.74rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:#fff;position:relative}
 .ccard__name{font-family:var(--serif);font-size:1.34rem;font-weight:600;line-height:1.12;margin-top:6px;position:relative;color:#fff}
 .ccard__body{padding:22px 26px 26px;flex:1;display:flex;flex-direction:column}
 .ccard__dates{font-size:.84rem;color:var(--accent-ink);font-weight:600;margin-bottom:12px}
@@ -230,11 +234,11 @@ h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7
 .chero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 100% at 90% 0%,rgba(255,255,255,.16),transparent 55%),radial-gradient(50% 80% at 0% 100%,rgba(0,0,0,.22),transparent 55%);pointer-events:none}
 .chero__in{position:relative;max-width:var(--wrap);margin:0 auto;padding:80px 24px 72px;display:grid;grid-template-columns:auto 1fr;gap:40px}
 .chero__rail{width:3px;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.1));border-radius:2px;align-self:stretch;min-height:140px}
-.chero__eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:18px}
-.chero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.3rem,5vw,3.7rem);line-height:1.04;letter-spacing:-.02em;margin-bottom:22px;max-width:17ch;color:#fff}
+.chero__eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:18px}
+.chero h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.2rem,4.7vw,3.5rem);line-height:1.08;letter-spacing:-.01em;margin-bottom:22px;max-width:17ch;color:#fff}
 .chero__dates{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:24px}
-.chero__date{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:11px 18px;backdrop-filter:blur(4px)}
-.chero__date .l{display:block;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:3px}
+.chero__date{background:rgba(0,0,0,.16);border:1px solid rgba(255,255,255,.28);border-radius:var(--r);padding:11px 18px;backdrop-filter:blur(4px)}
+.chero__date .l{display:block;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin-bottom:3px}
 .chero__date .v{font-size:1.02rem;font-weight:600;color:#fff}
 .chero__hook{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.15rem,2vw,1.4rem);line-height:1.5;color:#fff;max-width:52ch;margin-bottom:32px}
 .chero__cta{display:flex;gap:14px;flex-wrap:wrap}
@@ -337,8 +341,8 @@ h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7
 .more-toggle summary::after{content:"↓";font-size:.85em;transition:transform .2s var(--ease)}
 .more-toggle[open] summary::after{transform:rotate(180deg)}
 .more-toggle[open] summary{margin-bottom:18px}
-.dark-panel .more-toggle summary,.on-dark .more-toggle summary{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.3);color:#fff}
-.dark-panel .more-toggle summary:hover,.on-dark .more-toggle summary:hover{background:rgba(255,255,255,.18);border-color:#fff}
+.dark-panel .more-toggle summary,.on-dark .more-toggle summary{background:rgba(0,0,0,.16);border-color:rgba(255,255,255,.38);color:#fff}
+.dark-panel .more-toggle summary:hover,.on-dark .more-toggle summary:hover{background:rgba(0,0,0,.26);border-color:#fff}
 
 /* ═══ CALENDAR ═══ */
 .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
@@ -350,15 +354,15 @@ h2.big{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,3.4vw,2.7
 /* ═══ CONTACT PANEL (dark accent) ═══ */
 .cpanel{background:linear-gradient(150deg,var(--accent-strong),var(--accent-deep));color:#fff;border-radius:var(--r-xl);padding:38px 40px;position:relative;overflow:hidden}
 .cpanel::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 100% at 92% 0%,rgba(255,255,255,.14),transparent 55%);pointer-events:none}
-.cpanel h3{font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.86);margin-bottom:22px;position:relative}
+.cpanel h3{font-size:.82rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin-bottom:22px;position:relative}
 .cpanel__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;position:relative}
-.cp{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:var(--r);padding:16px 18px;transition:background .18s var(--ease)}
-.cp:hover{background:rgba(255,255,255,.18)}
+.cp{background:rgba(0,0,0,.16);border:1px solid rgba(255,255,255,.26);border-radius:var(--r);padding:16px 18px;transition:background .18s var(--ease)}
+.cp:hover{background:rgba(0,0,0,.24)}
 .cp__n{font-weight:600;font-size:.88rem;margin-bottom:5px;color:#fff}
 .cp__v{font-family:var(--serif);font-size:1.22rem;font-weight:600}
 .cp__v a{color:#fff;text-decoration:underline;text-underline-offset:2px;text-decoration-color:rgba(255,255,255,.5)}
 .cp__v a:hover{color:#fff;text-decoration-color:#fff}
-.cp__w{font-size:.8rem;color:rgba(255,255,255,.86);margin-top:5px;line-height:1.4}
+.cp__w{font-size:.8rem;color:#fff;margin-top:5px;line-height:1.4}
 
 /* ═══ CALLOUTS ═══ */
 .callout{border-radius:var(--r-lg);padding:22px 26px;display:flex;gap:16px;align-items:flex-start;line-height:1.6;margin-top:8px}
@@ -380,6 +384,7 @@ table.data td{padding:13px 18px;border-bottom:1px solid var(--line);color:var(--
 table.data tr:last-child td{border-bottom:none}
 table.data tbody tr{transition:background .12s}
 table.data tbody tr:hover td{background:var(--accent-wash)}
+table.data th a{color:var(--link-on-dark);font-weight:700;text-decoration:underline;text-underline-offset:2px}
 table.data td a{color:var(--link);font-weight:600;text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
 table.data td a:hover{color:var(--link-hover)}
 table.data th:last-child,table.data td:last-child{width:104px;white-space:nowrap}
@@ -411,7 +416,7 @@ table.data td a.apply-link:hover{background:var(--accent-strong);color:#fff}
 .phero{position:relative;overflow:hidden;background:linear-gradient(150deg,var(--accent-strong),var(--accent-deep));color:#fff}
 .phero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 100% at 90% 0%,rgba(255,255,255,.14),transparent 55%),radial-gradient(50% 80% at 0% 100%,rgba(0,0,0,.2),transparent 50%);pointer-events:none}
 .phero__in{position:relative;max-width:var(--wrap);margin:0 auto;padding:76px 24px 64px}
-.phero__eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 15px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);border-radius:var(--r-pill);font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;margin-bottom:20px}
+.phero__eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 15px;background:rgba(0,0,0,.16);border:1px solid rgba(255,255,255,.3);border-radius:var(--r-pill);font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;margin-bottom:20px}
 .phero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.3rem,4.6vw,3.5rem);line-height:1.05;letter-spacing:-.02em;color:#fff;max-width:19ch;margin-bottom:18px}
 .phero__lede{font-size:1.18rem;line-height:1.6;color:rgba(255,255,255,.92);max-width:56ch;margin-bottom:26px}
 .phero__cta .btn--onlight{background:#fff;color:var(--accent-ink)}
@@ -478,7 +483,7 @@ table.data td a.apply-link:hover{background:var(--accent-strong);color:#fff}
 /* RR-019 shared actions and governed opportunity-table headings */
 .site-actions{position:fixed;right:1rem;bottom:1rem;z-index:50;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.5rem;max-width:min(92vw,38rem)}
 .site-actions a{display:inline-flex;align-items:center;min-height:44px;padding:.6rem .9rem;border:1px solid #B8842A;border-radius:999px;background:#fff;color:#5A4000;font:700 .72rem/1.2 var(--sans);letter-spacing:.03em;text-decoration:none;box-shadow:0 3px 14px rgba(0,0,0,.18)}
-.site-actions a:last-child{background:#B8842A;color:#fff}
+.site-actions a:last-child{background:#9E6A10;color:#fff}
 .builder-credit{text-align:center;padding:.85rem 1rem 5rem;font-size:.72rem;border-top:1px solid rgba(0,0,0,.1)}
 .builder-credit a{color:#1B7A68}
 .opportunity-group th{padding:.75rem 1rem;background:var(--canvas-2);color:var(--ink);font-size:.78rem;letter-spacing:.03em;text-align:left}
@@ -521,3 +526,55 @@ details.faq.gl-hidden{display:none!important}
 .prose code,.lead-p code,.frame__b code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em;
   background:var(--canvas-2);color:var(--ink);padding:.1em .38em;border-radius:var(--r-xs);overflow-wrap:anywhere}
 .prose a,.lead-p a{overflow-wrap:anywhere}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FORCED COLOURS (Windows high contrast)
+   Every surface here is painted with background/box-shadow, so in forced-colors
+   the accent panels, tinted cards and rails all collapse to the same system
+   Canvas and the structure disappears. Restore the boundaries as borders, which
+   forced-colors keeps, and let the system decide the ink.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media (forced-colors: active){
+  .entry,.spot,.cp,.chero__date,.frame,.nav__mega,.callout,.ctaband,.cpanel,.tbl{
+    border:1px solid CanvasText}
+  .chero,.phero,.ctaband,.cpanel,.crisis,.stats,.dark-panel,.on-dark{
+    background:Canvas;color:CanvasText;forced-color-adjust:none}
+  .chero::before,.phero::before,.cpanel::after,.ctaband::after,.hero::before,.entry::before,.ccard__top::after{
+    display:none}
+  .btn{border:1px solid ButtonText;color:ButtonText;background:ButtonFace}
+  .btn:hover,.btn:focus-visible{color:Highlight;border-color:Highlight}
+  a,.dark-panel a,.on-dark a,.chero a,.phero a,.cpanel a{color:LinkText}
+  :focus-visible{outline:3px solid Highlight;outline-offset:3px}
+  .spot__rail,.nav__menu .rail{background:CanvasText;forced-color-adjust:none}
+  .crisis__tag::before,.spot__tag::before{background:CanvasText}
+  .record-status{border:1px solid CanvasText}
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRINT — students print the guide and the opportunity tracker. Drop the
+   chrome that cannot be clicked on paper, unpaint the dark panels so they are
+   not solid ink, and expose the destination of every outbound link.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@media print{
+  @page{margin:16mm}
+  html{font-size:11.5pt}
+  body{background:#fff;color:#000}
+  .nav,.crisis,.skip,.totop,.site-actions,.nav__toggle,.nav__mega,.hero__cta,.chero__cta,.ctaband__a,
+  .secnav,.builder-credit,[data-site-governance-notice] a{display:none!important}
+  .hero::before,.chero::before,.phero::before,.cpanel::after,.ctaband::after,.entry::before,.ccard__top::after{display:none!important}
+  .chero,.phero,.cpanel,.ctaband,.crisis,.stats,.dark-panel,.on-dark,.footer{
+    background:#fff!important;color:#000!important;box-shadow:none!important}
+  .chero *,.phero *,.cpanel *,.ctaband *,.stats *,.dark-panel *,.on-dark *,.footer *{color:#000!important}
+  .cp,.chero__date,.btn--wire{background:#fff!important;border:1px solid #666!important}
+  .entry,.spot,.frame,.callout,.cpanel,.ctaband,.tbl{
+    box-shadow:none!important;border:1px solid #999!important;break-inside:avoid}
+  .section{padding:18px 0!important}
+  h1,h2,h3,h4{break-after:avoid}
+  table.data th{background:#eee!important;color:#000!important;position:static!important}
+  table.data th a,table.data td a{color:#000!important}
+  a{color:#000;text-decoration:underline}
+  .prose a[href^="http"]::after,.lead-p a[href^="http"]::after,table.data a[href^="http"]::after{
+    content:" (" attr(href) ")";font-size:.82em;word-break:break-all;font-family:var(--sans)}
+  details[open] .more-toggle summary,.more-toggle summary{display:none!important}
+  details{display:block!important}
+}
